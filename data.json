@@ -1025,11 +1025,21 @@
     "contentType": "White Paper",
     "publishDate": "2024-11-13",
     "lastUpdated": "2024-11-13",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "TBM2G",
+      "Direct Drive Frameless Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > TBM2G",
+      "Technology > Direct Drive Frameless Motors"
+    ],
+    "taxonomyProduct": [
+      "TBM2G"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Direct Drive Frameless Motors"
+    ],
     "cluster": "Frameless Motor Integration",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -1065,11 +1075,21 @@
     "contentType": "White Paper",
     "publishDate": "2024-04-11",
     "lastUpdated": "2024-11-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "TBM2G",
+      "Direct Drive Frameless Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > TBM2G",
+      "Technology > Direct Drive Frameless Motors"
+    ],
+    "taxonomyProduct": [
+      "TBM2G"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Direct Drive Frameless Motors"
+    ],
     "cluster": "Frameless Motor Technology",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -1105,11 +1125,28 @@
     "contentType": "White Paper",
     "publishDate": "2025-01-13",
     "lastUpdated": "2025-01-13",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "AKM2G",
+      "AKD2G",
+      "Functional Safety",
+      "Motion Systems"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM2G",
+      "Product > AKD2G",
+      "Industry > Functional Safety",
+      "Technology > Motion Systems"
+    ],
+    "taxonomyProduct": [
+      "AKM2G",
+      "AKD2G"
+    ],
+    "taxonomyIndustry": [
+      "Functional Safety"
+    ],
+    "taxonomyTechnology": [
+      "Motion Systems"
+    ],
     "cluster": "",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -1145,11 +1182,28 @@
     "contentType": "White Paper",
     "publishDate": "2024-03-18",
     "lastUpdated": "2024-04-02",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "TBM2G",
+      "Robotics",
+      "Exoskeleton",
+      "Direct Drive Frameless Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > TBM2G",
+      "Industry > Robotics",
+      "Industry > Exoskeleton",
+      "Technology > Direct Drive Frameless Motors"
+    ],
+    "taxonomyProduct": [
+      "TBM2G"
+    ],
+    "taxonomyIndustry": [
+      "Robotics",
+      "Exoskeleton"
+    ],
+    "taxonomyTechnology": [
+      "Direct Drive Frameless Motors"
+    ],
     "cluster": "Motion Control Components",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -1185,10 +1239,19 @@
     "contentType": "White Paper",
     "publishDate": "2024-02-16",
     "lastUpdated": "2024-04-11",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Aerospace & Defense",
+      "Missiles and Guided Munitions"
+    ],
+    "taxonomyPaths": [
+      "Industry > Aerospace & Defense",
+      "Industry > Missiles and Guided Munitions"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Aerospace & Defense",
+      "Missiles and Guided Munitions"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
@@ -1225,11 +1288,34 @@
     "contentType": "White Paper",
     "publishDate": "2024-01-26",
     "lastUpdated": "2024-04-11",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "AKMA",
+      "AKMH",
+      "Food & Beverage",
+      "Form/Fill/Seal",
+      "Packaging & Converting",
+      "Hygienic / washdown / foodgrade"
+    ],
+    "taxonomyPaths": [
+      "Product > AKMA",
+      "Product > AKMH",
+      "Industry > Food & Beverage",
+      "Industry > Form/Fill/Seal",
+      "Industry > Packaging & Converting",
+      "Technology > Hygienic / washdown / foodgrade"
+    ],
+    "taxonomyProduct": [
+      "AKMA",
+      "AKMH"
+    ],
+    "taxonomyIndustry": [
+      "Food & Beverage",
+      "Form/Fill/Seal",
+      "Packaging & Converting"
+    ],
+    "taxonomyTechnology": [
+      "Hygienic / washdown / foodgrade"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -1265,9 +1351,18 @@
     "contentType": "White Paper",
     "publishDate": "2024-10-09",
     "lastUpdated": "2024-09-10",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G",
+      "AKM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G",
+      "Product > AKM2G"
+    ],
+    "taxonomyProduct": [
+      "AKD2G",
+      "AKM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -1300,11 +1395,24 @@
     "contentType": "White Paper",
     "publishDate": "2025-07-28",
     "lastUpdated": "2025-07-29",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD",
+      "AKD2G",
+      "Servo Drives"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD",
+      "Product > AKD2G",
+      "Technology > Servo Drives"
+    ],
+    "taxonomyProduct": [
+      "AKD",
+      "AKD2G"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Servo Drives"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -1340,11 +1448,33 @@
     "contentType": "White Paper",
     "publishDate": "2024-02-28",
     "lastUpdated": "2024-03-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM",
+      "AKM Washdown",
+      "AKMH",
+      "EKM",
+      "VLM",
+      "Servo Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM",
+      "Product > AKM Washdown",
+      "Product > AKMH",
+      "Product > EKM",
+      "Product > VLM",
+      "Technology > Servo Motors"
+    ],
+    "taxonomyProduct": [
+      "AKM",
+      "AKM Washdown",
+      "AKMH",
+      "EKM",
+      "VLM"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Servo Motors"
+    ],
     "cluster": "",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -1375,11 +1505,27 @@
     "contentType": "White Paper",
     "publishDate": "2024-02-27",
     "lastUpdated": "2024-02-29",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM",
+      "AKM2G",
+      "Servo Drives",
+      "Servo Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM",
+      "Product > AKM2G",
+      "Technology > Servo Drives",
+      "Technology > Servo Motors"
+    ],
+    "taxonomyProduct": [
+      "AKM",
+      "AKM2G"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Servo Drives",
+      "Servo Motors"
+    ],
     "cluster": "",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -1414,9 +1560,18 @@
     "contentType": "White Paper",
     "publishDate": "2024-11-15",
     "lastUpdated": "2024-11-25",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM",
+      "AKM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM",
+      "Product > AKM2G"
+    ],
+    "taxonomyProduct": [
+      "AKM",
+      "AKM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -1450,10 +1605,16 @@
     "contentType": "Webinar",
     "publishDate": "2025-11-21",
     "lastUpdated": "2025-12-16",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Aerospace & Defense"
+    ],
+    "taxonomyPaths": [
+      "Industry > Aerospace & Defense"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Aerospace & Defense"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
     "intent": "Commercial",
@@ -1485,11 +1646,24 @@
     "contentType": "Webinar",
     "publishDate": "2025-11-13",
     "lastUpdated": "2025-12-17",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "Servo Drives",
+      "Servo Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Technology > Servo Drives",
+      "Technology > Servo Motors"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Servo Drives",
+      "Servo Motors"
+    ],
     "cluster": "",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -1520,11 +1694,24 @@
     "contentType": "Webinar",
     "publishDate": "2025-10-11",
     "lastUpdated": "2025-11-21",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "Servo Drives",
+      "Servo Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Technology > Servo Drives",
+      "Technology > Servo Motors"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Servo Drives",
+      "Servo Motors"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -1555,11 +1742,24 @@
     "contentType": "Webinar",
     "publishDate": "2025-10-11",
     "lastUpdated": "2025-11-18",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "Servo Drives",
+      "Servo Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Technology > Servo Drives",
+      "Technology > Servo Motors"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Servo Drives",
+      "Servo Motors"
+    ],
     "cluster": "",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -1590,11 +1790,24 @@
     "contentType": "Webinar",
     "publishDate": "2025-10-28",
     "lastUpdated": "2025-11-19",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "Servo Drives",
+      "Servo Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Technology > Servo Drives",
+      "Technology > Servo Motors"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Servo Drives",
+      "Servo Motors"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -1625,11 +1838,24 @@
     "contentType": "Webinar",
     "publishDate": "2025-10-28",
     "lastUpdated": "2025-11-26",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "Servo Drives",
+      "Servo Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Technology > Servo Drives",
+      "Technology > Servo Motors"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Servo Drives",
+      "Servo Motors"
+    ],
     "cluster": "",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -1660,11 +1886,27 @@
     "contentType": "Webinar",
     "publishDate": "2025-10-10",
     "lastUpdated": "2025-10-30",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "Servo Drives",
+      "Servo Motors",
+      "Motion Systems"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Technology > Servo Drives",
+      "Technology > Servo Motors",
+      "Technology > Motion Systems"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Servo Drives",
+      "Servo Motors",
+      "Motion Systems"
+    ],
     "cluster": "",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -1695,10 +1937,19 @@
     "contentType": "Webinar",
     "publishDate": "2025-09-29",
     "lastUpdated": "2025-10-21",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Field Robotics",
+      "Robotics"
+    ],
+    "taxonomyPaths": [
+      "Industry > Field Robotics",
+      "Industry > Robotics"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Field Robotics",
+      "Robotics"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
     "intent": "Commercial",
@@ -1735,10 +1986,16 @@
     "contentType": "Webinar",
     "publishDate": "2025-12-09",
     "lastUpdated": "2025-11-20",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Robotics"
+    ],
+    "taxonomyPaths": [
+      "Industry > Robotics"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Robotics"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
     "intent": "Commercial",
@@ -1775,11 +2032,27 @@
     "contentType": "Webinar",
     "publishDate": "2025-12-09",
     "lastUpdated": "2025-10-09",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "Servo Motors",
+      "Servo Drives",
+      "Motion Systems"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Technology > Servo Motors",
+      "Technology > Servo Drives",
+      "Technology > Motion Systems"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Servo Motors",
+      "Servo Drives",
+      "Motion Systems"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -1815,10 +2088,16 @@
     "contentType": "Webinar",
     "publishDate": "2025-07-08",
     "lastUpdated": "2025-10-02",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Aerospace & Defense"
+    ],
+    "taxonomyPaths": [
+      "Industry > Aerospace & Defense"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Aerospace & Defense"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
@@ -1855,10 +2134,19 @@
     "contentType": "Webinar",
     "publishDate": "2025-07-16",
     "lastUpdated": "2025-08-29",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Space",
+      "Low Earth Orbit (LEO) Satellites"
+    ],
+    "taxonomyPaths": [
+      "Industry > Space",
+      "Industry > Low Earth Orbit (LEO) Satellites"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Space",
+      "Low Earth Orbit (LEO) Satellites"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
     "intent": "Commercial",
@@ -1895,10 +2183,16 @@
     "contentType": "Webinar",
     "publishDate": "2025-07-16",
     "lastUpdated": "2025-10-01",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Surgical Robotics"
+    ],
+    "taxonomyPaths": [
+      "Industry > Surgical Robotics"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Surgical Robotics"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
@@ -1935,11 +2229,21 @@
     "contentType": "Webinar",
     "publishDate": "2025-05-27",
     "lastUpdated": "2025-07-17",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Robotics",
+      "Direct Drive Frameless Motors"
+    ],
+    "taxonomyPaths": [
+      "Industry > Robotics",
+      "Technology > Direct Drive Frameless Motors"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyIndustry": [
+      "Robotics"
+    ],
+    "taxonomyTechnology": [
+      "Direct Drive Frameless Motors"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -1975,10 +2279,19 @@
     "contentType": "Webinar",
     "publishDate": "2025-05-13",
     "lastUpdated": "2025-06-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Aerospace & Defense",
+      "Missiles and Guided Munitions"
+    ],
+    "taxonomyPaths": [
+      "Industry > Aerospace & Defense",
+      "Industry > Missiles and Guided Munitions"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Aerospace & Defense",
+      "Missiles and Guided Munitions"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
@@ -2055,9 +2368,15 @@
     "contentType": "Webinar",
     "publishDate": "2025-03-04",
     "lastUpdated": "2025-05-22",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD BASIC"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD BASIC"
+    ],
+    "taxonomyProduct": [
+      "AKD BASIC"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -2095,9 +2414,15 @@
     "contentType": "Webinar",
     "publishDate": "2025-03-04",
     "lastUpdated": "2025-05-21",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD BASIC"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD BASIC"
+    ],
+    "taxonomyProduct": [
+      "AKD BASIC"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -2285,9 +2610,15 @@
     "contentType": "Webinar",
     "publishDate": "2025-06-03",
     "lastUpdated": "2025-04-17",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G"
+    ],
+    "taxonomyProduct": [
+      "AKD2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -2325,9 +2656,15 @@
     "contentType": "Webinar",
     "publishDate": "2025-06-03",
     "lastUpdated": "2025-04-16",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G"
+    ],
+    "taxonomyProduct": [
+      "AKD2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -2405,11 +2742,21 @@
     "contentType": "Webinar",
     "publishDate": "2025-05-03",
     "lastUpdated": "2025-04-09",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Feedback",
+      "Servo Motors"
+    ],
+    "taxonomyPaths": [
+      "Industry > Feedback",
+      "Technology > Servo Motors"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyIndustry": [
+      "Feedback"
+    ],
+    "taxonomyTechnology": [
+      "Servo Motors"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -2445,9 +2792,21 @@
     "contentType": "Webinar",
     "publishDate": "2025-11-02",
     "lastUpdated": "2025-04-23",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KBM",
+      "TBM",
+      "TBM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > KBM",
+      "Product > TBM",
+      "Product > TBM2G"
+    ],
+    "taxonomyProduct": [
+      "KBM",
+      "TBM",
+      "TBM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -2480,11 +2839,27 @@
     "contentType": "Webinar",
     "publishDate": "2025-01-31",
     "lastUpdated": "2025-03-20",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "IC ironcore",
+      "IL ironless",
+      "ICD ironcore",
+      "Direct Drive Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > IC ironcore",
+      "Product > IL ironless",
+      "Product > ICD ironcore",
+      "Technology > Direct Drive Motors"
+    ],
+    "taxonomyProduct": [
+      "IC ironcore",
+      "IL ironless",
+      "ICD ironcore"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Direct Drive Motors"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -2600,10 +2975,19 @@
     "contentType": "Webinar",
     "publishDate": "2025-10-01",
     "lastUpdated": "2025-03-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Safety",
+      "Functional Safety"
+    ],
+    "taxonomyPaths": [
+      "Industry > Safety",
+      "Industry > Functional Safety"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Safety",
+      "Functional Safety"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
     "intent": "Commercial",
@@ -2640,9 +3024,15 @@
     "contentType": "Webinar",
     "publishDate": "2025-10-01",
     "lastUpdated": "2025-03-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "WorkBench"
+    ],
+    "taxonomyPaths": [
+      "Product > WorkBench"
+    ],
+    "taxonomyProduct": [
+      "WorkBench"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -2680,11 +3070,24 @@
     "contentType": "Webinar",
     "publishDate": "2025-10-01",
     "lastUpdated": "2025-03-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Cogging",
+      "Torque Ripple",
+      "Servo Motors"
+    ],
+    "taxonomyPaths": [
+      "Industry > Cogging",
+      "Industry > Torque Ripple",
+      "Technology > Servo Motors"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyIndustry": [
+      "Cogging",
+      "Torque Ripple"
+    ],
+    "taxonomyTechnology": [
+      "Servo Motors"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -2720,10 +3123,16 @@
     "contentType": "Webinar",
     "publishDate": "2024-12-12",
     "lastUpdated": "2025-03-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "UAV"
+    ],
+    "taxonomyPaths": [
+      "Industry > UAV"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "UAV"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
     "intent": "Commercial",
@@ -2760,11 +3169,21 @@
     "contentType": "Webinar",
     "publishDate": "2024-10-15",
     "lastUpdated": "2025-03-26",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKMA",
+      "Hygienic / washdown / foodgrade"
+    ],
+    "taxonomyPaths": [
+      "Product > AKMA",
+      "Technology > Hygienic / washdown / foodgrade"
+    ],
+    "taxonomyProduct": [
+      "AKMA"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Hygienic / washdown / foodgrade"
+    ],
     "cluster": "",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -2835,9 +3254,15 @@
     "contentType": "Webinar",
     "publishDate": "2024-09-30",
     "lastUpdated": "2025-03-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD-C & AKD-N"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD-C & AKD-N"
+    ],
+    "taxonomyProduct": [
+      "AKD-C & AKD-N"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -2870,11 +3295,21 @@
     "contentType": "Webinar",
     "publishDate": "2024-09-25",
     "lastUpdated": "2025-03-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KAS",
+      "Motion Systems"
+    ],
+    "taxonomyPaths": [
+      "Product > KAS",
+      "Technology > Motion Systems"
+    ],
+    "taxonomyProduct": [
+      "KAS"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Motion Systems"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -2905,11 +3340,21 @@
     "contentType": "Webinar",
     "publishDate": "2024-09-09",
     "lastUpdated": "2025-03-19",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Feedback",
+      "Servo Motors"
+    ],
+    "taxonomyPaths": [
+      "Industry > Feedback",
+      "Technology > Servo Motors"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyIndustry": [
+      "Feedback"
+    ],
+    "taxonomyTechnology": [
+      "Servo Motors"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -3244,10 +3689,16 @@
     "contentType": "Webinar",
     "publishDate": "2024-03-27",
     "lastUpdated": "2025-03-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Exoskeleton"
+    ],
+    "taxonomyPaths": [
+      "Industry > Exoskeleton"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Exoskeleton"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
@@ -3283,11 +3734,21 @@
     "contentType": "Webinar",
     "publishDate": "2024-04-03",
     "lastUpdated": "2025-03-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "P8000",
+      "Stepper Drives"
+    ],
+    "taxonomyPaths": [
+      "Product > P8000",
+      "Technology > Stepper Drives"
+    ],
+    "taxonomyProduct": [
+      "P8000"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Stepper Drives"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -3323,11 +3784,17 @@
     "contentType": "Webinar",
     "publishDate": "2024-04-03",
     "lastUpdated": "2025-09-24",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Servo Drives"
+    ],
+    "taxonomyPaths": [
+      "Technology > Servo Drives"
+    ],
     "taxonomyProduct": [],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Servo Drives"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -3362,10 +3829,19 @@
     "contentType": "Webinar",
     "publishDate": "2024-05-02",
     "lastUpdated": "2025-03-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Aerospace & Defense",
+      "Missiles and Guided Munitions"
+    ],
+    "taxonomyPaths": [
+      "Industry > Aerospace & Defense",
+      "Industry > Missiles and Guided Munitions"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Aerospace & Defense",
+      "Missiles and Guided Munitions"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
     "intent": "Informational",
@@ -3436,10 +3912,16 @@
     "contentType": "Webinar",
     "publishDate": "2024-10-01",
     "lastUpdated": "2025-03-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Packaging & Converting"
+    ],
+    "taxonomyPaths": [
+      "Industry > Packaging & Converting"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Packaging & Converting"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
@@ -3475,11 +3957,24 @@
     "contentType": "Video",
     "publishDate": "2025-12-11",
     "lastUpdated": "2025-11-12",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G",
+      "AKM2G",
+      "Motion Systems"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G",
+      "Product > AKM2G",
+      "Technology > Motion Systems"
+    ],
+    "taxonomyProduct": [
+      "AKD2G",
+      "AKM2G"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Motion Systems"
+    ],
     "cluster": "",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -3510,9 +4005,21 @@
     "contentType": "Classroom Training",
     "publishDate": "2025-08-29",
     "lastUpdated": "2025-10-29",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD",
+      "AKD2G",
+      "Kollmorgen Essentials"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD",
+      "Product > AKD2G",
+      "Product > Kollmorgen Essentials"
+    ],
+    "taxonomyProduct": [
+      "AKD",
+      "AKD2G",
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -3545,9 +4052,15 @@
     "contentType": "Classroom Training",
     "publishDate": "2025-01-28",
     "lastUpdated": "2025-04-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "P8000"
+    ],
+    "taxonomyPaths": [
+      "Product > P8000"
+    ],
+    "taxonomyProduct": [
+      "P8000"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
@@ -3620,11 +4133,24 @@
     "contentType": "Success Story",
     "publishDate": "2025-04-12",
     "lastUpdated": "2025-12-12",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Robotics & Mobile Automation",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -3660,11 +4186,24 @@
     "contentType": "Success Story",
     "publishDate": "2025-04-11",
     "lastUpdated": "2025-11-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -3700,11 +4239,24 @@
     "contentType": "Success Story",
     "publishDate": "2025-04-11",
     "lastUpdated": "2025-11-10",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -3740,11 +4292,31 @@
     "contentType": "Success Story",
     "publishDate": "2025-05-08",
     "lastUpdated": "2025-09-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "AKM2G",
+      "AKD",
+      "Robotics",
+      "Servo Motors",
+      "Servo Drives"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM2G",
+      "Product > AKD",
+      "Industry > Robotics",
+      "Technology > Servo Motors",
+      "Technology > Servo Drives"
+    ],
+    "taxonomyProduct": [
+      "AKM2G",
+      "AKD"
+    ],
+    "taxonomyIndustry": [
+      "Robotics"
+    ],
+    "taxonomyTechnology": [
+      "Servo Motors",
+      "Servo Drives"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -3780,11 +4352,27 @@
     "contentType": "Success Story",
     "publishDate": "2025-02-21",
     "lastUpdated": "2025-04-09",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "IC ironcore",
+      "IL ironless",
+      "ICD ironcore",
+      "Direct Drive Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > IC ironcore",
+      "Product > IL ironless",
+      "Product > ICD ironcore",
+      "Technology > Direct Drive Motors"
+    ],
+    "taxonomyProduct": [
+      "IC ironcore",
+      "IL ironless",
+      "ICD ironcore"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Direct Drive Motors"
+    ],
     "cluster": "Frameless Motor Technology",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -3820,11 +4408,21 @@
     "contentType": "Success Story",
     "publishDate": "2025-07-04",
     "lastUpdated": "2025-04-07",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "IC ironcore",
+      "Direct Drive Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > IC ironcore",
+      "Technology > Direct Drive Motors"
+    ],
+    "taxonomyProduct": [
+      "IC ironcore"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Direct Drive Motors"
+    ],
     "cluster": "Frameless Motor Technology",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -3860,11 +4458,31 @@
     "contentType": "Success Story",
     "publishDate": "2024-12-09",
     "lastUpdated": "2024-09-26",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "AKM2G",
+      "AKD2G",
+      "Packaging & Converting",
+      "Cartoners",
+      "Motion Systems"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM2G",
+      "Product > AKD2G",
+      "Industry > Packaging & Converting",
+      "Industry > Cartoners",
+      "Technology > Motion Systems"
+    ],
+    "taxonomyProduct": [
+      "AKM2G",
+      "AKD2G"
+    ],
+    "taxonomyIndustry": [
+      "Packaging & Converting",
+      "Cartoners"
+    ],
+    "taxonomyTechnology": [
+      "Motion Systems"
+    ],
     "cluster": "Servo Motor Products",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -3900,11 +4518,34 @@
     "contentType": "Success Story",
     "publishDate": "2024-04-01",
     "lastUpdated": "2024-01-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "AKM",
+      "AKD",
+      "Robotics",
+      "Exoskeleton",
+      "Servo Motors",
+      "Servo Drives"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM",
+      "Product > AKD",
+      "Industry > Robotics",
+      "Industry > Exoskeleton",
+      "Technology > Servo Motors",
+      "Technology > Servo Drives"
+    ],
+    "taxonomyProduct": [
+      "AKM",
+      "AKD"
+    ],
+    "taxonomyIndustry": [
+      "Robotics",
+      "Exoskeleton"
+    ],
+    "taxonomyTechnology": [
+      "Servo Motors",
+      "Servo Drives"
+    ],
     "cluster": "",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -3939,11 +4580,34 @@
     "contentType": "Success Story",
     "publishDate": "2024-03-28",
     "lastUpdated": "2024-03-28",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "KBM",
+      "Metal Forming",
+      "Laser",
+      "Waterjet",
+      "and Plasma Cutters",
+      "Direct Drive Frameless Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > KBM",
+      "Industry > Metal Forming",
+      "Industry > Laser",
+      "Industry > Waterjet",
+      "Industry > and Plasma Cutters",
+      "Technology > Direct Drive Frameless Motors"
+    ],
+    "taxonomyProduct": [
+      "KBM"
+    ],
+    "taxonomyIndustry": [
+      "Metal Forming",
+      "Laser",
+      "Waterjet",
+      "and Plasma Cutters"
+    ],
+    "taxonomyTechnology": [
+      "Direct Drive Frameless Motors"
+    ],
     "cluster": "",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -3974,11 +4638,30 @@
     "contentType": "Success Story",
     "publishDate": "2024-03-27",
     "lastUpdated": "2024-04-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Metal Forming",
+      "Laser",
+      "Waterjet",
+      "and Plasma Cutters",
+      "Servo Drives"
+    ],
+    "taxonomyPaths": [
+      "Industry > Metal Forming",
+      "Industry > Laser",
+      "Industry > Waterjet",
+      "Industry > and Plasma Cutters",
+      "Technology > Servo Drives"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyIndustry": [
+      "Metal Forming",
+      "Laser",
+      "Waterjet",
+      "and Plasma Cutters"
+    ],
+    "taxonomyTechnology": [
+      "Servo Drives"
+    ],
     "cluster": "",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -4009,11 +4692,20 @@
     "contentType": "Solution",
     "publishDate": "2025-12-19",
     "lastUpdated": "2025-12-30",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Industry > Automated Guided Vehicles",
+      "Technology > Automated Guided Vehicles"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -4049,10 +4741,19 @@
     "contentType": "Solution",
     "publishDate": "2025-03-09",
     "lastUpdated": "2025-11-11",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Aerospace & Defense",
+      "Ground Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Industry > Aerospace & Defense",
+      "Industry > Ground Vehicles"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Aerospace & Defense",
+      "Ground Vehicles"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Frameless Motor Integration",
     "intent": "Commercial",
@@ -4089,9 +4790,15 @@
     "contentType": "Publications",
     "publishDate": "2025-10-27",
     "lastUpdated": "2025-10-27",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "RBE"
+    ],
+    "taxonomyPaths": [
+      "Product > RBE"
+    ],
+    "taxonomyProduct": [
+      "RBE"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -4124,10 +4831,20 @@
     "contentType": "Publications",
     "publishDate": "2025-09-17",
     "lastUpdated": "2025-10-07",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
     "taxonomyTechnology": [],
     "cluster": "",
     "intent": "Commercial",
@@ -4159,10 +4876,20 @@
     "contentType": "Publications",
     "publishDate": "2025-09-17",
     "lastUpdated": "2025-10-07",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
     "taxonomyTechnology": [],
     "cluster": "",
     "intent": "Commercial",
@@ -4194,9 +4921,15 @@
     "contentType": "Publications",
     "publishDate": "2025-09-16",
     "lastUpdated": "2025-09-24",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KED"
+    ],
+    "taxonomyPaths": [
+      "Product > KED"
+    ],
+    "taxonomyProduct": [
+      "KED"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -4234,9 +4967,21 @@
     "contentType": "Publications",
     "publishDate": "2025-09-09",
     "lastUpdated": "2025-10-09",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KED",
+      "KEM",
+      "Cables"
+    ],
+    "taxonomyPaths": [
+      "Product > KED",
+      "Product > KEM",
+      "Product > Cables"
+    ],
+    "taxonomyProduct": [
+      "KED",
+      "KEM",
+      "Cables"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -4269,10 +5014,20 @@
     "contentType": "Publications",
     "publishDate": "2025-04-09",
     "lastUpdated": "2025-09-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
     "taxonomyTechnology": [],
     "cluster": "",
     "intent": "Commercial",
@@ -4304,10 +5059,20 @@
     "contentType": "Publications",
     "publishDate": "2025-04-09",
     "lastUpdated": "2025-09-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
     "taxonomyTechnology": [],
     "cluster": "",
     "intent": "Commercial",
@@ -4339,10 +5104,20 @@
     "contentType": "Publications",
     "publishDate": "2025-04-09",
     "lastUpdated": "2025-10-07",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
     "taxonomyTechnology": [],
     "cluster": "",
     "intent": "Commercial",
@@ -4374,10 +5149,20 @@
     "contentType": "Publications",
     "publishDate": "2025-04-09",
     "lastUpdated": "2025-09-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
     "taxonomyTechnology": [],
     "cluster": "",
     "intent": "Commercial",
@@ -4409,9 +5194,18 @@
     "contentType": "Publications",
     "publishDate": "2025-02-09",
     "lastUpdated": "2025-09-24",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KEM",
+      "KED"
+    ],
+    "taxonomyPaths": [
+      "Product > KEM",
+      "Product > KED"
+    ],
+    "taxonomyProduct": [
+      "KEM",
+      "KED"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -4449,10 +5243,20 @@
     "contentType": "Publications",
     "publishDate": "2025-08-05",
     "lastUpdated": "2025-05-19",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
     "taxonomyTechnology": [],
     "cluster": "",
     "intent": "Commercial",
@@ -4484,10 +5288,20 @@
     "contentType": "Publications",
     "publishDate": "2025-08-05",
     "lastUpdated": "2025-05-19",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
     "taxonomyTechnology": [],
     "cluster": "",
     "intent": "Commercial",
@@ -4519,10 +5333,20 @@
     "contentType": "Publications",
     "publishDate": "2025-10-04",
     "lastUpdated": "2026-02-02",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
     "taxonomyTechnology": [],
     "cluster": "",
     "intent": "Commercial",
@@ -4554,10 +5378,20 @@
     "contentType": "Publications",
     "publishDate": "2025-10-04",
     "lastUpdated": "2025-04-11",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
     "taxonomyTechnology": [],
     "cluster": "",
     "intent": "Commercial",
@@ -4589,10 +5423,20 @@
     "contentType": "Publications",
     "publishDate": "2025-10-04",
     "lastUpdated": "2025-04-11",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
     "taxonomyTechnology": [],
     "cluster": "",
     "intent": "Commercial",
@@ -4624,10 +5468,20 @@
     "contentType": "Publications",
     "publishDate": "2025-10-04",
     "lastUpdated": "2025-04-11",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
     "taxonomyTechnology": [],
     "cluster": "",
     "intent": "Commercial",
@@ -4659,9 +5513,21 @@
     "contentType": "Publications",
     "publishDate": "2025-01-30",
     "lastUpdated": "2025-04-07",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "ICD ironcore",
+      "IC ironcore",
+      "IL ironless"
+    ],
+    "taxonomyPaths": [
+      "Product > ICD ironcore",
+      "Product > IC ironcore",
+      "Product > IL ironless"
+    ],
+    "taxonomyProduct": [
+      "ICD ironcore",
+      "IC ironcore",
+      "IL ironless"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -4699,9 +5565,15 @@
     "contentType": "Publications",
     "publishDate": "2024-06-09",
     "lastUpdated": "2024-12-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM2G"
+    ],
+    "taxonomyProduct": [
+      "PCMM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -4739,9 +5611,15 @@
     "contentType": "Publications",
     "publishDate": "2024-05-17",
     "lastUpdated": "2024-06-17",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "TBM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > TBM2G"
+    ],
+    "taxonomyProduct": [
+      "TBM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -4779,9 +5657,15 @@
     "contentType": "Publications",
     "publishDate": "2024-05-17",
     "lastUpdated": "2024-06-17",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "TBM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > TBM2G"
+    ],
+    "taxonomyProduct": [
+      "TBM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -4819,9 +5703,15 @@
     "contentType": "Publications",
     "publishDate": "2024-05-17",
     "lastUpdated": "2024-06-17",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "TBM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > TBM2G"
+    ],
+    "taxonomyProduct": [
+      "TBM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -4859,9 +5749,33 @@
     "contentType": "Publications",
     "publishDate": "2024-02-16",
     "lastUpdated": "2024-11-13",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PMX",
+      "CT",
+      "T2",
+      "Powermax II M & P",
+      "Powerpac K & N",
+      "E & H Hybrid",
+      "MX"
+    ],
+    "taxonomyPaths": [
+      "Product > PMX",
+      "Product > CT",
+      "Product > T2",
+      "Product > Powermax II M & P",
+      "Product > Powerpac K & N",
+      "Product > E & H Hybrid",
+      "Product > MX"
+    ],
+    "taxonomyProduct": [
+      "PMX",
+      "CT",
+      "T2",
+      "Powermax II M & P",
+      "Powerpac K & N",
+      "E & H Hybrid",
+      "MX"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -4894,9 +5808,15 @@
     "contentType": "Publications",
     "publishDate": "2024-02-16",
     "lastUpdated": "2024-02-16",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Hazardous Duty Synchronous"
+    ],
+    "taxonomyPaths": [
+      "Product > Hazardous Duty Synchronous"
+    ],
+    "taxonomyProduct": [
+      "Hazardous Duty Synchronous"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Motion Control Components",
@@ -4929,9 +5849,15 @@
     "contentType": "Publications",
     "publishDate": "2024-02-16",
     "lastUpdated": "2024-02-16",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "T2"
+    ],
+    "taxonomyPaths": [
+      "Product > T2"
+    ],
+    "taxonomyProduct": [
+      "T2"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Servo Motor Products",
@@ -4964,9 +5890,21 @@
     "contentType": "Publications",
     "publishDate": "2024-02-16",
     "lastUpdated": "2024-02-16",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Synchronous Motors",
+      "KS & SS",
+      "Hazardous Duty Synchronous"
+    ],
+    "taxonomyPaths": [
+      "Product > Synchronous Motors",
+      "Product > KS & SS",
+      "Product > Hazardous Duty Synchronous"
+    ],
+    "taxonomyProduct": [
+      "Synchronous Motors",
+      "KS & SS",
+      "Hazardous Duty Synchronous"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -4999,9 +5937,15 @@
     "contentType": "Publications",
     "publishDate": "2024-02-15",
     "lastUpdated": "2024-02-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "ST & SN"
+    ],
+    "taxonomyPaths": [
+      "Product > ST & SN"
+    ],
+    "taxonomyProduct": [
+      "ST & SN"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -5034,9 +5978,15 @@
     "contentType": "Publications",
     "publishDate": "2024-02-15",
     "lastUpdated": "2024-02-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "MX"
+    ],
+    "taxonomyPaths": [
+      "Product > MX"
+    ],
+    "taxonomyProduct": [
+      "MX"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Motion Control Components",
@@ -5069,9 +6019,15 @@
     "contentType": "Publications",
     "publishDate": "2024-02-15",
     "lastUpdated": "2024-02-21",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Powermax II M & P"
+    ],
+    "taxonomyPaths": [
+      "Product > Powermax II M & P"
+    ],
+    "taxonomyProduct": [
+      "Powermax II M & P"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Motion Control Components",
@@ -5105,9 +6061,15 @@
     "contentType": "Publications",
     "publishDate": "2024-02-15",
     "lastUpdated": "2024-02-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KS & SS"
+    ],
+    "taxonomyPaths": [
+      "Product > KS & SS"
+    ],
+    "taxonomyProduct": [
+      "KS & SS"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Motion Control Components",
@@ -5140,9 +6102,15 @@
     "contentType": "Publications",
     "publishDate": "2024-02-15",
     "lastUpdated": "2024-02-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Powerpac K & N"
+    ],
+    "taxonomyPaths": [
+      "Product > Powerpac K & N"
+    ],
+    "taxonomyProduct": [
+      "Powerpac K & N"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -5175,9 +6143,15 @@
     "contentType": "Publications",
     "publishDate": "2024-02-15",
     "lastUpdated": "2024-02-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "CT"
+    ],
+    "taxonomyPaths": [
+      "Product > CT"
+    ],
+    "taxonomyProduct": [
+      "CT"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Servo Drive Products",
@@ -5210,9 +6184,15 @@
     "contentType": "Publications",
     "publishDate": "2024-02-15",
     "lastUpdated": "2024-11-13",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "E & H Hybrid"
+    ],
+    "taxonomyPaths": [
+      "Product > E & H Hybrid"
+    ],
+    "taxonomyProduct": [
+      "E & H Hybrid"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Motion Control Components",
@@ -5245,10 +6225,16 @@
     "contentType": "Publications",
     "publishDate": "2024-07-02",
     "lastUpdated": "2024-02-07",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Medical Imaging"
+    ],
+    "taxonomyPaths": [
+      "Industry > Medical Imaging"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Medical Imaging"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Industry Applications",
     "intent": "Informational",
@@ -5285,9 +6271,18 @@
     "contentType": "Publications",
     "publishDate": "2024-02-19",
     "lastUpdated": "2026-01-27",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G",
+      "AKM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G",
+      "Product > AKM2G"
+    ],
+    "taxonomyProduct": [
+      "AKD2G",
+      "AKM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -5320,11 +6315,24 @@
     "contentType": "Product",
     "publishDate": "2025-09-17",
     "lastUpdated": "2025-09-18",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM",
+      "AKD",
+      "Motion Systems"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM",
+      "Product > AKD",
+      "Technology > Motion Systems"
+    ],
+    "taxonomyProduct": [
+      "AKM",
+      "AKD"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Motion Systems"
+    ],
     "cluster": "Servo Drive Products",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -5360,11 +6368,21 @@
     "contentType": "Product",
     "publishDate": "2025-10-09",
     "lastUpdated": "2025-10-24",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KEM",
+      "Motion Systems"
+    ],
+    "taxonomyPaths": [
+      "Product > KEM",
+      "Technology > Motion Systems"
+    ],
+    "taxonomyProduct": [
+      "KEM"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Motion Systems"
+    ],
     "cluster": "Servo Drive Products",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -5400,11 +6418,21 @@
     "contentType": "Product",
     "publishDate": "2025-04-09",
     "lastUpdated": "2025-09-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -5440,11 +6468,21 @@
     "contentType": "Product",
     "publishDate": "2025-03-09",
     "lastUpdated": "2025-09-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -5480,11 +6518,21 @@
     "contentType": "Product",
     "publishDate": "2025-03-09",
     "lastUpdated": "2025-09-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -5520,11 +6568,21 @@
     "contentType": "Product",
     "publishDate": "2025-02-09",
     "lastUpdated": "2025-09-18",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Robotics & Mobile Automation",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -5560,11 +6618,21 @@
     "contentType": "Product",
     "publishDate": "2025-04-23",
     "lastUpdated": "2025-05-19",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Robotics & Mobile Automation",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -5600,11 +6668,21 @@
     "contentType": "Product",
     "publishDate": "2025-10-04",
     "lastUpdated": "2025-04-11",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Motion Control Components",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -5640,11 +6718,21 @@
     "contentType": "Product",
     "publishDate": "2025-10-04",
     "lastUpdated": "2025-09-18",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Robotics & Mobile Automation",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -5680,11 +6768,21 @@
     "contentType": "Product",
     "publishDate": "2025-10-04",
     "lastUpdated": "2025-05-22",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -5720,11 +6818,21 @@
     "contentType": "Product",
     "publishDate": "2025-10-04",
     "lastUpdated": "2025-12-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -5760,11 +6868,21 @@
     "contentType": "Product",
     "publishDate": "2025-10-04",
     "lastUpdated": "2025-05-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Servo Drive Products",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -5800,9 +6918,15 @@
     "contentType": "Product",
     "publishDate": "2024-11-06",
     "lastUpdated": "2025-02-10",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM2G"
+    ],
+    "taxonomyProduct": [
+      "PCMM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Industry Applications",
@@ -5840,11 +6964,27 @@
     "contentType": "Product",
     "publishDate": "2025-07-04",
     "lastUpdated": "2025-04-08",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "IC ironcore",
+      "IL ironless",
+      "ICD ironcore",
+      "Direct Drive Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > IC ironcore",
+      "Product > IL ironless",
+      "Product > ICD ironcore",
+      "Technology > Direct Drive Motors"
+    ],
+    "taxonomyProduct": [
+      "IC ironcore",
+      "IL ironless",
+      "ICD ironcore"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Direct Drive Motors"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -5878,11 +7018,21 @@
     "contentType": "Press Release",
     "publishDate": "2025-09-25",
     "lastUpdated": "2025-09-25",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Robotics & Mobile Automation",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -5913,11 +7063,17 @@
     "contentType": "Press Release",
     "publishDate": "2025-08-29",
     "lastUpdated": "2025-09-25",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Motion Systems"
+    ],
+    "taxonomyPaths": [
+      "Technology > Motion Systems"
+    ],
     "taxonomyProduct": [],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Motion Systems"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -5953,11 +7109,21 @@
     "contentType": "Press Release",
     "publishDate": "2025-04-06",
     "lastUpdated": "2025-06-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Robotics & Mobile Automation",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -5988,11 +7154,24 @@
     "contentType": "Press Release",
     "publishDate": "2025-05-22",
     "lastUpdated": "2025-05-22",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Robotics & Mobile Automation",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -6023,11 +7202,17 @@
     "contentType": "Press Release",
     "publishDate": "2025-03-24",
     "lastUpdated": "2025-03-24",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Servo Motors"
+    ],
+    "taxonomyPaths": [
+      "Technology > Servo Motors"
+    ],
     "taxonomyProduct": [],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Servo Motors"
+    ],
     "cluster": "Servo Drive Products",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -6098,11 +7283,21 @@
     "contentType": "Press Release",
     "publishDate": "2025-07-04",
     "lastUpdated": "2025-04-07",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "DDL",
+      "Direct Drive Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > DDL",
+      "Technology > Direct Drive Motors"
+    ],
+    "taxonomyProduct": [
+      "DDL"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Direct Drive Motors"
+    ],
     "cluster": "Frameless Motor Technology",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -6138,11 +7333,24 @@
     "contentType": "Press Release",
     "publishDate": "2024-03-12",
     "lastUpdated": "2024-12-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -6173,10 +7381,16 @@
     "contentType": "Press Release",
     "publishDate": "2025-01-13",
     "lastUpdated": "2025-01-13",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Safety"
+    ],
+    "taxonomyPaths": [
+      "Industry > Safety"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Safety"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
     "intent": "Commercial",
@@ -6213,11 +7427,21 @@
     "contentType": "Press Release",
     "publishDate": "2024-01-10",
     "lastUpdated": "2024-12-02",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM2G",
+      "Controller Hardware"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM2G",
+      "Technology > Controller Hardware"
+    ],
+    "taxonomyProduct": [
+      "PCMM2G"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Controller Hardware"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -6253,11 +7477,24 @@
     "contentType": "Press Release",
     "publishDate": "2024-08-23",
     "lastUpdated": "2024-08-23",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Robotics & Mobile Automation",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -6842,11 +8079,24 @@
     "contentType": "General Purpose",
     "publishDate": "2025-12-19",
     "lastUpdated": "2026-01-19",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Technical Training & Downloads",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -6882,11 +8132,24 @@
     "contentType": "General Purpose",
     "publishDate": "2025-12-19",
     "lastUpdated": "2026-01-19",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "NDC8",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Product > NDC8",
+      "Industry > Automated Guided Vehicles",
+      "Technology > Automated Guided Vehicles"
+    ],
+    "taxonomyProduct": [
+      "NDC8"
+    ],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Servo Drive Products",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -6922,9 +8185,15 @@
     "contentType": "FAQ",
     "publishDate": "2025-02-19",
     "lastUpdated": "2025-02-19",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD"
+    ],
+    "taxonomyProduct": [
+      "AKD"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -6957,9 +8226,15 @@
     "contentType": "FAQ",
     "publishDate": "2025-02-19",
     "lastUpdated": "2025-02-19",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD"
+    ],
+    "taxonomyProduct": [
+      "AKD"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Servo Drive Products",
@@ -6992,9 +8267,21 @@
     "contentType": "FAQ",
     "publishDate": "2025-02-18",
     "lastUpdated": "2025-02-19",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD",
+      "AKMH",
+      "WorkBench"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD",
+      "Product > AKMH",
+      "Product > WorkBench"
+    ],
+    "taxonomyProduct": [
+      "AKD",
+      "AKMH",
+      "WorkBench"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Servo Drive Products",
@@ -7027,9 +8314,21 @@
     "contentType": "FAQ",
     "publishDate": "2025-02-18",
     "lastUpdated": "2025-02-18",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "ICH",
+      "AKD",
+      "AKD BASIC"
+    ],
+    "taxonomyPaths": [
+      "Product > ICH",
+      "Product > AKD",
+      "Product > AKD BASIC"
+    ],
+    "taxonomyProduct": [
+      "ICH",
+      "AKD",
+      "AKD BASIC"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Servo Drive Products",
@@ -7062,9 +8361,15 @@
     "contentType": "FAQ",
     "publishDate": "2025-02-18",
     "lastUpdated": "2025-02-18",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G"
+    ],
+    "taxonomyProduct": [
+      "AKD2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Servo Drive Products",
@@ -7763,9 +9068,15 @@
     "contentType": "File",
     "publishDate": "2025-12-18",
     "lastUpdated": "2025-12-18",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G"
+    ],
+    "taxonomyProduct": [
+      "AKD2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -7798,9 +9109,21 @@
     "contentType": "File",
     "publishDate": "2025-11-11",
     "lastUpdated": "2025-11-11",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KED",
+      "KEM"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KED",
+      "Product > KEM"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KED",
+      "KEM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -7833,9 +9156,15 @@
     "contentType": "File",
     "publishDate": "2025-06-11",
     "lastUpdated": "2025-11-06",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM2G"
+    ],
+    "taxonomyProduct": [
+      "AKM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -7868,9 +9197,18 @@
     "contentType": "File",
     "publishDate": "2025-04-11",
     "lastUpdated": "2025-11-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KEM",
+      "Kollmorgen Essentials"
+    ],
+    "taxonomyPaths": [
+      "Product > KEM",
+      "Product > Kollmorgen Essentials"
+    ],
+    "taxonomyProduct": [
+      "KEM",
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -7903,9 +9241,18 @@
     "contentType": "File",
     "publishDate": "2025-10-29",
     "lastUpdated": "2025-10-29",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KED"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -7938,9 +9285,18 @@
     "contentType": "File",
     "publishDate": "2025-10-29",
     "lastUpdated": "2025-10-29",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KED"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -7973,9 +9329,18 @@
     "contentType": "File",
     "publishDate": "2025-10-22",
     "lastUpdated": "2025-10-24",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KEM"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KEM"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KEM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8008,9 +9373,18 @@
     "contentType": "File",
     "publishDate": "2025-10-22",
     "lastUpdated": "2025-10-22",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KEM"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KEM"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KEM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8043,9 +9417,18 @@
     "contentType": "File",
     "publishDate": "2025-10-20",
     "lastUpdated": "2025-10-20",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KED"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8078,9 +9461,18 @@
     "contentType": "File",
     "publishDate": "2025-10-20",
     "lastUpdated": "2025-10-20",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KED"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8113,9 +9505,18 @@
     "contentType": "File",
     "publishDate": "2025-10-20",
     "lastUpdated": "2025-10-20",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KED"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8148,9 +9549,18 @@
     "contentType": "File",
     "publishDate": "2025-10-20",
     "lastUpdated": "2025-10-20",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KED"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8183,9 +9593,18 @@
     "contentType": "File",
     "publishDate": "2025-10-17",
     "lastUpdated": "2025-10-17",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KED"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8218,9 +9637,18 @@
     "contentType": "File",
     "publishDate": "2025-10-17",
     "lastUpdated": "2025-10-17",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KED"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8253,9 +9681,18 @@
     "contentType": "File",
     "publishDate": "2025-10-17",
     "lastUpdated": "2025-10-17",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KED"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8288,9 +9725,18 @@
     "contentType": "File",
     "publishDate": "2025-10-14",
     "lastUpdated": "2025-10-14",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KED"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KED"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8323,9 +9769,18 @@
     "contentType": "File",
     "publishDate": "2025-10-14",
     "lastUpdated": "2025-10-14",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KEM"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KEM"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KEM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8358,9 +9813,18 @@
     "contentType": "File",
     "publishDate": "2025-09-30",
     "lastUpdated": "2025-10-13",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KEM",
+      "Kollmorgen Essentials"
+    ],
+    "taxonomyPaths": [
+      "Product > KEM",
+      "Product > Kollmorgen Essentials"
+    ],
+    "taxonomyProduct": [
+      "KEM",
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8393,9 +9857,18 @@
     "contentType": "File",
     "publishDate": "2025-09-30",
     "lastUpdated": "2025-10-13",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KEM",
+      "Kollmorgen Essentials"
+    ],
+    "taxonomyPaths": [
+      "Product > KEM",
+      "Product > Kollmorgen Essentials"
+    ],
+    "taxonomyProduct": [
+      "KEM",
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8428,9 +9901,21 @@
     "contentType": "File",
     "publishDate": "2025-09-25",
     "lastUpdated": "2025-10-13",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KED",
+      "KAS",
+      "Kollmorgen Essentials"
+    ],
+    "taxonomyPaths": [
+      "Product > KED",
+      "Product > KAS",
+      "Product > Kollmorgen Essentials"
+    ],
+    "taxonomyProduct": [
+      "KED",
+      "KAS",
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -8463,9 +9948,21 @@
     "contentType": "File",
     "publishDate": "2025-09-24",
     "lastUpdated": "2025-10-20",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KED",
+      "KEM"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KED",
+      "Product > KEM"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KED",
+      "KEM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8498,9 +9995,21 @@
     "contentType": "File",
     "publishDate": "2025-09-24",
     "lastUpdated": "2025-10-13",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G",
+      "KED",
+      "Kollmorgen Essentials"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G",
+      "Product > KED",
+      "Product > Kollmorgen Essentials"
+    ],
+    "taxonomyProduct": [
+      "AKD2G",
+      "KED",
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8533,9 +10042,18 @@
     "contentType": "File",
     "publishDate": "2025-09-24",
     "lastUpdated": "2025-10-13",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KEM",
+      "Kollmorgen Essentials"
+    ],
+    "taxonomyPaths": [
+      "Product > KEM",
+      "Product > Kollmorgen Essentials"
+    ],
+    "taxonomyProduct": [
+      "KEM",
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8568,9 +10086,18 @@
     "contentType": "File",
     "publishDate": "2025-09-24",
     "lastUpdated": "2025-10-13",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KEM",
+      "Kollmorgen Essentials"
+    ],
+    "taxonomyPaths": [
+      "Product > KEM",
+      "Product > Kollmorgen Essentials"
+    ],
+    "taxonomyProduct": [
+      "KEM",
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8603,9 +10130,18 @@
     "contentType": "File",
     "publishDate": "2025-09-24",
     "lastUpdated": "2025-10-13",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KEM",
+      "Kollmorgen Essentials"
+    ],
+    "taxonomyPaths": [
+      "Product > KEM",
+      "Product > Kollmorgen Essentials"
+    ],
+    "taxonomyProduct": [
+      "KEM",
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8638,9 +10174,18 @@
     "contentType": "File",
     "publishDate": "2025-09-24",
     "lastUpdated": "2026-02-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KED",
+      "Kollmorgen Essentials"
+    ],
+    "taxonomyPaths": [
+      "Product > KED",
+      "Product > Kollmorgen Essentials"
+    ],
+    "taxonomyProduct": [
+      "KED",
+      "Kollmorgen Essentials"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -8673,9 +10218,15 @@
     "contentType": "File",
     "publishDate": "2025-10-09",
     "lastUpdated": "2025-09-10",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Goldline"
+    ],
+    "taxonomyPaths": [
+      "Product > Goldline"
+    ],
+    "taxonomyProduct": [
+      "Goldline"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8708,9 +10259,15 @@
     "contentType": "File",
     "publishDate": "2025-05-09",
     "lastUpdated": "2025-09-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM2G"
+    ],
+    "taxonomyProduct": [
+      "AKM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8743,9 +10300,15 @@
     "contentType": "File",
     "publishDate": "2025-05-09",
     "lastUpdated": "2025-09-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM2G"
+    ],
+    "taxonomyProduct": [
+      "AKM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8778,9 +10341,18 @@
     "contentType": "File",
     "publishDate": "2025-05-09",
     "lastUpdated": "2025-09-24",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM2G",
+      "AKM2G Low Voltage"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM2G",
+      "Product > AKM2G Low Voltage"
+    ],
+    "taxonomyProduct": [
+      "AKM2G",
+      "AKM2G Low Voltage"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8813,9 +10385,15 @@
     "contentType": "File",
     "publishDate": "2025-05-09",
     "lastUpdated": "2025-09-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM2G"
+    ],
+    "taxonomyProduct": [
+      "AKM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8848,9 +10426,15 @@
     "contentType": "File",
     "publishDate": "2025-05-09",
     "lastUpdated": "2025-09-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM2G"
+    ],
+    "taxonomyProduct": [
+      "AKM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8883,9 +10467,15 @@
     "contentType": "File",
     "publishDate": "2025-05-09",
     "lastUpdated": "2025-09-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM2G"
+    ],
+    "taxonomyProduct": [
+      "AKM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8918,9 +10508,18 @@
     "contentType": "File",
     "publishDate": "2025-07-18",
     "lastUpdated": "2025-07-18",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "DDL",
+      "ICD ironcore"
+    ],
+    "taxonomyPaths": [
+      "Product > DDL",
+      "Product > ICD ironcore"
+    ],
+    "taxonomyProduct": [
+      "DDL",
+      "ICD ironcore"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8953,9 +10552,15 @@
     "contentType": "File",
     "publishDate": "2025-06-25",
     "lastUpdated": "2026-01-07",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "S700"
+    ],
+    "taxonomyPaths": [
+      "Product > S700"
+    ],
+    "taxonomyProduct": [
+      "S700"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -8988,9 +10593,15 @@
     "contentType": "File",
     "publishDate": "2025-03-06",
     "lastUpdated": "2025-06-30",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "BLM"
+    ],
+    "taxonomyPaths": [
+      "Product > BLM"
+    ],
+    "taxonomyProduct": [
+      "BLM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9023,9 +10634,15 @@
     "contentType": "File",
     "publishDate": "2025-03-06",
     "lastUpdated": "2025-06-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "BLM"
+    ],
+    "taxonomyPaths": [
+      "Product > BLM"
+    ],
+    "taxonomyProduct": [
+      "BLM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9058,9 +10675,15 @@
     "contentType": "File",
     "publishDate": "2025-06-05",
     "lastUpdated": "2025-05-08",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM"
+    ],
+    "taxonomyProduct": [
+      "PCMM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9093,9 +10716,15 @@
     "contentType": "File",
     "publishDate": "2025-05-05",
     "lastUpdated": "2025-05-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G"
+    ],
+    "taxonomyProduct": [
+      "AKD2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
@@ -9128,9 +10757,21 @@
     "contentType": "File",
     "publishDate": "2025-09-04",
     "lastUpdated": "2025-04-09",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD",
+      "AKD BASIC",
+      "AKD PDMM"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD",
+      "Product > AKD BASIC",
+      "Product > AKD PDMM"
+    ],
+    "taxonomyProduct": [
+      "AKD",
+      "AKD BASIC",
+      "AKD PDMM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9163,9 +10804,15 @@
     "contentType": "File",
     "publishDate": "2025-01-04",
     "lastUpdated": "2025-04-01",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G"
+    ],
+    "taxonomyProduct": [
+      "AKD2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9198,9 +10845,15 @@
     "contentType": "File",
     "publishDate": "2025-03-26",
     "lastUpdated": "2025-06-18",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "BLM"
+    ],
+    "taxonomyPaths": [
+      "Product > BLM"
+    ],
+    "taxonomyProduct": [
+      "BLM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9233,9 +10886,15 @@
     "contentType": "File",
     "publishDate": "2025-07-03",
     "lastUpdated": "2025-03-07",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM"
+    ],
+    "taxonomyProduct": [
+      "AKM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9268,9 +10927,15 @@
     "contentType": "File",
     "publishDate": "2025-07-03",
     "lastUpdated": "2025-03-07",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM"
+    ],
+    "taxonomyProduct": [
+      "AKM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9303,9 +10968,15 @@
     "contentType": "File",
     "publishDate": "2025-06-03",
     "lastUpdated": "2025-03-06",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM2G"
+    ],
+    "taxonomyProduct": [
+      "PCMM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9338,9 +11009,15 @@
     "contentType": "File",
     "publishDate": "2025-06-03",
     "lastUpdated": "2025-03-06",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKMA"
+    ],
+    "taxonomyPaths": [
+      "Product > AKMA"
+    ],
+    "taxonomyProduct": [
+      "AKMA"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9373,9 +11050,15 @@
     "contentType": "File",
     "publishDate": "2025-06-03",
     "lastUpdated": "2025-03-06",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM"
+    ],
+    "taxonomyProduct": [
+      "AKM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
@@ -9408,9 +11091,15 @@
     "contentType": "File",
     "publishDate": "2025-05-03",
     "lastUpdated": "2025-03-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM2G"
+    ],
+    "taxonomyProduct": [
+      "PCMM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9443,9 +11132,15 @@
     "contentType": "File",
     "publishDate": "2025-05-03",
     "lastUpdated": "2025-03-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM2G"
+    ],
+    "taxonomyProduct": [
+      "PCMM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9478,9 +11173,15 @@
     "contentType": "File",
     "publishDate": "2025-05-03",
     "lastUpdated": "2025-03-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM2G"
+    ],
+    "taxonomyProduct": [
+      "PCMM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9513,9 +11214,15 @@
     "contentType": "File",
     "publishDate": "2025-05-03",
     "lastUpdated": "2025-03-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM2G"
+    ],
+    "taxonomyProduct": [
+      "PCMM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9548,9 +11255,15 @@
     "contentType": "File",
     "publishDate": "2025-05-03",
     "lastUpdated": "2025-03-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM2G"
+    ],
+    "taxonomyProduct": [
+      "PCMM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9583,9 +11296,15 @@
     "contentType": "File",
     "publishDate": "2025-05-03",
     "lastUpdated": "2025-03-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM2G"
+    ],
+    "taxonomyProduct": [
+      "PCMM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9618,9 +11337,15 @@
     "contentType": "File",
     "publishDate": "2025-04-03",
     "lastUpdated": "2025-03-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G"
+    ],
+    "taxonomyProduct": [
+      "AKD2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9653,9 +11378,18 @@
     "contentType": "File",
     "publishDate": "2025-02-20",
     "lastUpdated": "2025-02-20",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKT2G",
+      "KAS"
+    ],
+    "taxonomyPaths": [
+      "Product > AKT2G",
+      "Product > KAS"
+    ],
+    "taxonomyProduct": [
+      "AKT2G",
+      "KAS"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9688,9 +11422,15 @@
     "contentType": "File",
     "publishDate": "2025-02-18",
     "lastUpdated": "2025-02-18",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "DDL"
+    ],
+    "taxonomyPaths": [
+      "Product > DDL"
+    ],
+    "taxonomyProduct": [
+      "DDL"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9723,9 +11463,15 @@
     "contentType": "File",
     "publishDate": "2025-02-18",
     "lastUpdated": "2025-02-18",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "DDL"
+    ],
+    "taxonomyPaths": [
+      "Product > DDL"
+    ],
+    "taxonomyProduct": [
+      "DDL"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9758,9 +11504,15 @@
     "contentType": "File",
     "publishDate": "2025-02-18",
     "lastUpdated": "2025-02-18",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "DDL"
+    ],
+    "taxonomyPaths": [
+      "Product > DDL"
+    ],
+    "taxonomyProduct": [
+      "DDL"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9793,9 +11545,15 @@
     "contentType": "File",
     "publishDate": "2025-02-18",
     "lastUpdated": "2025-02-18",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "DDL"
+    ],
+    "taxonomyPaths": [
+      "Product > DDL"
+    ],
+    "taxonomyProduct": [
+      "DDL"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9828,9 +11586,15 @@
     "contentType": "File",
     "publishDate": "2025-09-01",
     "lastUpdated": "2025-01-09",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "S700"
+    ],
+    "taxonomyPaths": [
+      "Product > S700"
+    ],
+    "taxonomyProduct": [
+      "S700"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9863,9 +11627,15 @@
     "contentType": "File",
     "publishDate": "2025-09-01",
     "lastUpdated": "2025-01-09",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "S600"
+    ],
+    "taxonomyPaths": [
+      "Product > S600"
+    ],
+    "taxonomyProduct": [
+      "S600"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9898,9 +11668,15 @@
     "contentType": "File",
     "publishDate": "2025-09-01",
     "lastUpdated": "2025-01-09",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "S300"
+    ],
+    "taxonomyPaths": [
+      "Product > S300"
+    ],
+    "taxonomyProduct": [
+      "S300"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9933,9 +11709,15 @@
     "contentType": "File",
     "publishDate": "2024-06-12",
     "lastUpdated": "2025-03-07",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM"
+    ],
+    "taxonomyProduct": [
+      "AKM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -9968,9 +11750,15 @@
     "contentType": "File",
     "publishDate": "2024-11-11",
     "lastUpdated": "2025-03-05",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM2G"
+    ],
+    "taxonomyProduct": [
+      "PCMM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10003,9 +11791,15 @@
     "contentType": "File",
     "publishDate": "2024-10-15",
     "lastUpdated": "2024-10-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Powerpac K & N"
+    ],
+    "taxonomyPaths": [
+      "Product > Powerpac K & N"
+    ],
+    "taxonomyProduct": [
+      "Powerpac K & N"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10038,9 +11832,15 @@
     "contentType": "File",
     "publishDate": "2024-11-10",
     "lastUpdated": "2024-10-11",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKMA"
+    ],
+    "taxonomyPaths": [
+      "Product > AKMA"
+    ],
+    "taxonomyProduct": [
+      "AKMA"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10073,9 +11873,15 @@
     "contentType": "File",
     "publishDate": "2024-11-10",
     "lastUpdated": "2024-10-11",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKMA"
+    ],
+    "taxonomyPaths": [
+      "Product > AKMA"
+    ],
+    "taxonomyProduct": [
+      "AKMA"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10143,9 +11949,15 @@
     "contentType": "File",
     "publishDate": "2024-03-10",
     "lastUpdated": "2024-10-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Proteo PC"
+    ],
+    "taxonomyPaths": [
+      "Product > Proteo PC"
+    ],
+    "taxonomyProduct": [
+      "Proteo PC"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10178,9 +11990,18 @@
     "contentType": "File",
     "publishDate": "2024-09-27",
     "lastUpdated": "2025-07-09",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM2G",
+      "KAS"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM2G",
+      "Product > KAS"
+    ],
+    "taxonomyProduct": [
+      "PCMM2G",
+      "KAS"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
@@ -10213,9 +12034,18 @@
     "contentType": "File",
     "publishDate": "2024-09-27",
     "lastUpdated": "2025-07-09",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM2G",
+      "KAS"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM2G",
+      "Product > KAS"
+    ],
+    "taxonomyProduct": [
+      "PCMM2G",
+      "KAS"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10248,9 +12078,15 @@
     "contentType": "File",
     "publishDate": "2024-06-08",
     "lastUpdated": "2024-08-06",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD-C & AKD-N"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD-C & AKD-N"
+    ],
+    "taxonomyProduct": [
+      "AKD-C & AKD-N"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10283,9 +12119,15 @@
     "contentType": "File",
     "publishDate": "2024-01-08",
     "lastUpdated": "2024-08-01",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "MKD"
+    ],
+    "taxonomyPaths": [
+      "Product > MKD"
+    ],
+    "taxonomyProduct": [
+      "MKD"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10318,9 +12160,15 @@
     "contentType": "File",
     "publishDate": "2024-07-31",
     "lastUpdated": "2024-07-31",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "QMP"
+    ],
+    "taxonomyPaths": [
+      "Product > QMP"
+    ],
+    "taxonomyProduct": [
+      "QMP"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10353,9 +12201,15 @@
     "contentType": "File",
     "publishDate": "2024-07-31",
     "lastUpdated": "2024-07-31",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "S200"
+    ],
+    "taxonomyPaths": [
+      "Product > S200"
+    ],
+    "taxonomyProduct": [
+      "S200"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10388,9 +12242,15 @@
     "contentType": "File",
     "publishDate": "2024-07-31",
     "lastUpdated": "2024-07-31",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G"
+    ],
+    "taxonomyProduct": [
+      "AKD2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10423,9 +12283,15 @@
     "contentType": "File",
     "publishDate": "2024-07-26",
     "lastUpdated": "2024-07-26",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "P8000"
+    ],
+    "taxonomyPaths": [
+      "Product > P8000"
+    ],
+    "taxonomyProduct": [
+      "P8000"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10458,9 +12324,15 @@
     "contentType": "File",
     "publishDate": "2024-07-26",
     "lastUpdated": "2024-07-26",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "P8000"
+    ],
+    "taxonomyPaths": [
+      "Product > P8000"
+    ],
+    "taxonomyProduct": [
+      "P8000"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10493,9 +12365,15 @@
     "contentType": "File",
     "publishDate": "2024-07-25",
     "lastUpdated": "2024-07-25",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "P8000"
+    ],
+    "taxonomyPaths": [
+      "Product > P8000"
+    ],
+    "taxonomyProduct": [
+      "P8000"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -10528,9 +12406,15 @@
     "contentType": "File",
     "publishDate": "2024-07-24",
     "lastUpdated": "2024-10-17",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Proteo PC"
+    ],
+    "taxonomyPaths": [
+      "Product > Proteo PC"
+    ],
+    "taxonomyProduct": [
+      "Proteo PC"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -10563,9 +12447,15 @@
     "contentType": "File",
     "publishDate": "2024-07-15",
     "lastUpdated": "2024-07-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "S700"
+    ],
+    "taxonomyPaths": [
+      "Product > S700"
+    ],
+    "taxonomyProduct": [
+      "S700"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10598,9 +12488,15 @@
     "contentType": "File",
     "publishDate": "2024-07-15",
     "lastUpdated": "2024-07-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "S600"
+    ],
+    "taxonomyPaths": [
+      "Product > S600"
+    ],
+    "taxonomyProduct": [
+      "S600"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10633,9 +12529,15 @@
     "contentType": "File",
     "publishDate": "2024-07-15",
     "lastUpdated": "2024-07-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "S300"
+    ],
+    "taxonomyPaths": [
+      "Product > S300"
+    ],
+    "taxonomyProduct": [
+      "S300"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10668,9 +12570,15 @@
     "contentType": "File",
     "publishDate": "2024-07-15",
     "lastUpdated": "2024-07-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "MKD"
+    ],
+    "taxonomyPaths": [
+      "Product > MKD"
+    ],
+    "taxonomyProduct": [
+      "MKD"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10703,9 +12611,15 @@
     "contentType": "File",
     "publishDate": "2024-07-15",
     "lastUpdated": "2024-07-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD-C & AKD-N"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD-C & AKD-N"
+    ],
+    "taxonomyProduct": [
+      "AKD-C & AKD-N"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10738,9 +12652,15 @@
     "contentType": "File",
     "publishDate": "2024-07-15",
     "lastUpdated": "2024-07-31",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD"
+    ],
+    "taxonomyProduct": [
+      "AKD"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10773,9 +12693,15 @@
     "contentType": "File",
     "publishDate": "2024-06-28",
     "lastUpdated": "2024-06-28",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKMA"
+    ],
+    "taxonomyPaths": [
+      "Product > AKMA"
+    ],
+    "taxonomyProduct": [
+      "AKMA"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10808,9 +12734,24 @@
     "contentType": "File",
     "publishDate": "2024-06-25",
     "lastUpdated": "2025-04-09",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "DDL",
+      "IL ironless",
+      "IC ironcore",
+      "ICD ironcore"
+    ],
+    "taxonomyPaths": [
+      "Product > DDL",
+      "Product > IL ironless",
+      "Product > IC ironcore",
+      "Product > ICD ironcore"
+    ],
+    "taxonomyProduct": [
+      "DDL",
+      "IL ironless",
+      "IC ironcore",
+      "ICD ironcore"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10843,9 +12784,18 @@
     "contentType": "File",
     "publishDate": "2024-06-25",
     "lastUpdated": "2025-01-22",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "DDL",
+      "IC ironcore"
+    ],
+    "taxonomyPaths": [
+      "Product > DDL",
+      "Product > IC ironcore"
+    ],
+    "taxonomyProduct": [
+      "DDL",
+      "IC ironcore"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10878,9 +12828,18 @@
     "contentType": "File",
     "publishDate": "2024-06-19",
     "lastUpdated": "2024-06-19",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM2G",
+      "KAS"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM2G",
+      "Product > KAS"
+    ],
+    "taxonomyProduct": [
+      "PCMM2G",
+      "KAS"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10913,9 +12872,18 @@
     "contentType": "File",
     "publishDate": "2024-12-06",
     "lastUpdated": "2025-01-22",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "DDL",
+      "IL ironless"
+    ],
+    "taxonomyPaths": [
+      "Product > DDL",
+      "Product > IL ironless"
+    ],
+    "taxonomyProduct": [
+      "DDL",
+      "IL ironless"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10948,9 +12916,24 @@
     "contentType": "File",
     "publishDate": "2024-12-06",
     "lastUpdated": "2025-04-09",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "DDL",
+      "IC ironcore",
+      "IL ironless",
+      "ICD ironcore"
+    ],
+    "taxonomyPaths": [
+      "Product > DDL",
+      "Product > IC ironcore",
+      "Product > IL ironless",
+      "Product > ICD ironcore"
+    ],
+    "taxonomyProduct": [
+      "DDL",
+      "IC ironcore",
+      "IL ironless",
+      "ICD ironcore"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -10983,9 +12966,15 @@
     "contentType": "File",
     "publishDate": "2024-05-28",
     "lastUpdated": "2024-09-25",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "P8000"
+    ],
+    "taxonomyPaths": [
+      "Product > P8000"
+    ],
+    "taxonomyProduct": [
+      "P8000"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -11018,9 +13007,87 @@
     "contentType": "File",
     "publishDate": "2024-04-26",
     "lastUpdated": "2024-04-26",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G",
+      "AKD BASIC",
+      "AKD-C & AKD-N",
+      "AKD",
+      "AKD PDMM",
+      "PCMM",
+      "P8000",
+      "AKM",
+      "AKMA",
+      "AKMH",
+      "AKM2G",
+      "TBM",
+      "TBM2G",
+      "KBM",
+      "DDL",
+      "IC ironcore",
+      "IL ironless",
+      "ICD ironcore",
+      "Housed D & DH",
+      "Cartridge DDR",
+      "PMX",
+      "Powerpac K & N",
+      "Powermax II M & P",
+      "MX",
+      "T2"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G",
+      "Product > AKD BASIC",
+      "Product > AKD-C & AKD-N",
+      "Product > AKD",
+      "Product > AKD PDMM",
+      "Product > PCMM",
+      "Product > P8000",
+      "Product > AKM",
+      "Product > AKMA",
+      "Product > AKMH",
+      "Product > AKM2G",
+      "Product > TBM",
+      "Product > TBM2G",
+      "Product > KBM",
+      "Product > DDL",
+      "Product > IC ironcore",
+      "Product > IL ironless",
+      "Product > ICD ironcore",
+      "Product > Housed D & DH",
+      "Product > Cartridge DDR",
+      "Product > PMX",
+      "Product > Powerpac K & N",
+      "Product > Powermax II M & P",
+      "Product > MX",
+      "Product > T2"
+    ],
+    "taxonomyProduct": [
+      "AKD2G",
+      "AKD BASIC",
+      "AKD-C & AKD-N",
+      "AKD",
+      "AKD PDMM",
+      "PCMM",
+      "P8000",
+      "AKM",
+      "AKMA",
+      "AKMH",
+      "AKM2G",
+      "TBM",
+      "TBM2G",
+      "KBM",
+      "DDL",
+      "IC ironcore",
+      "IL ironless",
+      "ICD ironcore",
+      "Housed D & DH",
+      "Cartridge DDR",
+      "PMX",
+      "Powerpac K & N",
+      "Powermax II M & P",
+      "MX",
+      "T2"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -11053,9 +13120,18 @@
     "contentType": "File",
     "publishDate": "2024-04-23",
     "lastUpdated": "2025-02-26",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G",
+      "WorkBench"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G",
+      "Product > WorkBench"
+    ],
+    "taxonomyProduct": [
+      "AKD2G",
+      "WorkBench"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
@@ -11088,9 +13164,18 @@
     "contentType": "File",
     "publishDate": "2024-04-23",
     "lastUpdated": "2025-02-26",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G",
+      "WorkBench"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G",
+      "Product > WorkBench"
+    ],
+    "taxonomyProduct": [
+      "AKD2G",
+      "WorkBench"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
@@ -11123,9 +13208,15 @@
     "contentType": "File",
     "publishDate": "2024-04-16",
     "lastUpdated": "2025-11-11",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKMH"
+    ],
+    "taxonomyPaths": [
+      "Product > AKMH"
+    ],
+    "taxonomyProduct": [
+      "AKMH"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -11158,9 +13249,15 @@
     "contentType": "File",
     "publishDate": "2024-04-03",
     "lastUpdated": "2025-02-26",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G"
+    ],
+    "taxonomyProduct": [
+      "AKD2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
@@ -11193,9 +13290,15 @@
     "contentType": "File",
     "publishDate": "2024-02-20",
     "lastUpdated": "2024-02-20",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "P8000"
+    ],
+    "taxonomyPaths": [
+      "Product > P8000"
+    ],
+    "taxonomyProduct": [
+      "P8000"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -11228,9 +13331,15 @@
     "contentType": "File",
     "publishDate": "2024-02-20",
     "lastUpdated": "2024-02-20",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "P8000"
+    ],
+    "taxonomyPaths": [
+      "Product > P8000"
+    ],
+    "taxonomyProduct": [
+      "P8000"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -11263,9 +13372,15 @@
     "contentType": "File",
     "publishDate": "2024-01-29",
     "lastUpdated": "2024-01-29",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKMA"
+    ],
+    "taxonomyPaths": [
+      "Product > AKMA"
+    ],
+    "taxonomyProduct": [
+      "AKMA"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -11298,9 +13413,15 @@
     "contentType": "File",
     "publishDate": "2024-01-29",
     "lastUpdated": "2024-01-29",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKMA"
+    ],
+    "taxonomyPaths": [
+      "Product > AKMA"
+    ],
+    "taxonomyProduct": [
+      "AKMA"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -11333,9 +13454,27 @@
     "contentType": "File",
     "publishDate": "2024-01-16",
     "lastUpdated": "2025-09-25",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD PDMM",
+      "AKD2G",
+      "KAS",
+      "PCMM",
+      "PCMM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD PDMM",
+      "Product > AKD2G",
+      "Product > KAS",
+      "Product > PCMM",
+      "Product > PCMM2G"
+    ],
+    "taxonomyProduct": [
+      "AKD PDMM",
+      "AKD2G",
+      "KAS",
+      "PCMM",
+      "PCMM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -11368,9 +13507,15 @@
     "contentType": "File",
     "publishDate": "2024-01-15",
     "lastUpdated": "2024-01-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKMH"
+    ],
+    "taxonomyPaths": [
+      "Product > AKMH"
+    ],
+    "taxonomyProduct": [
+      "AKMH"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -11403,9 +13548,96 @@
     "contentType": "File",
     "publishDate": "2024-05-01",
     "lastUpdated": "2026-01-30",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKM",
+      "AKMA",
+      "AKMH",
+      "EKM",
+      "AKM2G",
+      "Goldline",
+      "DBL",
+      "DBK",
+      "Cartridge DDR",
+      "KBM",
+      "TBM",
+      "TBM2G",
+      "RBE",
+      "PMDC",
+      "STF Washdown",
+      "DC Torque",
+      "DDL",
+      "PMX",
+      "Powermax II M & P",
+      "Powerpac K & N",
+      "CT",
+      "T2",
+      "MH172",
+      "KS & SS",
+      "Cables",
+      "MX",
+      "KEM",
+      "VLM"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM",
+      "Product > AKMA",
+      "Product > AKMH",
+      "Product > EKM",
+      "Product > AKM2G",
+      "Product > Goldline",
+      "Product > DBL",
+      "Product > DBK",
+      "Product > Cartridge DDR",
+      "Product > KBM",
+      "Product > TBM",
+      "Product > TBM2G",
+      "Product > RBE",
+      "Product > PMDC",
+      "Product > STF Washdown",
+      "Product > DC Torque",
+      "Product > DDL",
+      "Product > PMX",
+      "Product > Powermax II M & P",
+      "Product > Powerpac K & N",
+      "Product > CT",
+      "Product > T2",
+      "Product > MH172",
+      "Product > KS & SS",
+      "Product > Cables",
+      "Product > MX",
+      "Product > KEM",
+      "Product > VLM"
+    ],
+    "taxonomyProduct": [
+      "AKM",
+      "AKMA",
+      "AKMH",
+      "EKM",
+      "AKM2G",
+      "Goldline",
+      "DBL",
+      "DBK",
+      "Cartridge DDR",
+      "KBM",
+      "TBM",
+      "TBM2G",
+      "RBE",
+      "PMDC",
+      "STF Washdown",
+      "DC Torque",
+      "DDL",
+      "PMX",
+      "Powermax II M & P",
+      "Powerpac K & N",
+      "CT",
+      "T2",
+      "MH172",
+      "KS & SS",
+      "Cables",
+      "MX",
+      "KEM",
+      "VLM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -11478,11 +13710,20 @@
     "contentType": "Category",
     "publishDate": "2025-04-10",
     "lastUpdated": "2025-09-15",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Industry > Automated Guided Vehicles",
+      "Technology > Automated Guided Vehicles"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Servo Drive Products",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -11518,11 +13759,17 @@
     "contentType": "Category",
     "publishDate": "2024-05-13",
     "lastUpdated": "2024-05-28",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Direct Drive Frameless Motors"
+    ],
+    "taxonomyPaths": [
+      "Technology > Direct Drive Frameless Motors"
+    ],
     "taxonomyProduct": [],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Direct Drive Frameless Motors"
+    ],
     "cluster": "Frameless Motor Integration",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -11558,9 +13805,21 @@
     "contentType": "Product Support Pages",
     "publishDate": "2025-09-11",
     "lastUpdated": "2025-12-01",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "Kollmorgen Essentials",
+      "KED",
+      "KEM"
+    ],
+    "taxonomyPaths": [
+      "Product > Kollmorgen Essentials",
+      "Product > KED",
+      "Product > KEM"
+    ],
+    "taxonomyProduct": [
+      "Kollmorgen Essentials",
+      "KED",
+      "KEM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -11593,9 +13852,15 @@
     "contentType": "Product Support Pages",
     "publishDate": "2025-06-03",
     "lastUpdated": "2025-06-03",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "BLM"
+    ],
+    "taxonomyPaths": [
+      "Product > BLM"
+    ],
+    "taxonomyProduct": [
+      "BLM"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Frameless Motor Technology",
@@ -11628,10 +13893,16 @@
     "contentType": "Blog",
     "publishDate": "2025-03-26",
     "lastUpdated": "2025-04-01",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Feedback"
+    ],
+    "taxonomyPaths": [
+      "Industry > Feedback"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Feedback"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Motion Control Solutions",
     "intent": "Informational",
@@ -11668,10 +13939,16 @@
     "contentType": "Blog",
     "publishDate": "2025-03-26",
     "lastUpdated": "2025-04-01",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Feedback"
+    ],
+    "taxonomyPaths": [
+      "Industry > Feedback"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Feedback"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Servo Drive Products",
     "intent": "Informational",
@@ -11708,11 +13985,20 @@
     "contentType": "Blog",
     "publishDate": "2025-03-11",
     "lastUpdated": "2025-03-11",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Brush DC Motors",
+      "Servo Motors"
+    ],
+    "taxonomyPaths": [
+      "Technology > Brush DC Motors",
+      "Technology > Servo Motors"
+    ],
     "taxonomyProduct": [],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Brush DC Motors",
+      "Servo Motors"
+    ],
     "cluster": "Servo Drive Products",
     "intent": "Commercial",
     "journeyStage": "Consideration",
@@ -11748,11 +14034,20 @@
     "contentType": "Blog",
     "publishDate": "2025-02-13",
     "lastUpdated": "2025-02-13",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Stepper Drives",
+      "Stepper Motors"
+    ],
+    "taxonomyPaths": [
+      "Technology > Stepper Drives",
+      "Technology > Stepper Motors"
+    ],
     "taxonomyProduct": [],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Stepper Drives",
+      "Stepper Motors"
+    ],
     "cluster": "Servo Drive Products",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -11788,10 +14083,26 @@
     "contentType": "Blog",
     "publishDate": "2025-02-10",
     "lastUpdated": "2025-06-25",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyTerms": [
+      "AKM",
+      "Medical & Laboratory Automation",
+      "Aerospace & Defense",
+      "Surgical Robotics"
+    ],
+    "taxonomyPaths": [
+      "Product > AKM",
+      "Industry > Medical & Laboratory Automation",
+      "Industry > Aerospace & Defense",
+      "Industry > Surgical Robotics"
+    ],
+    "taxonomyProduct": [
+      "AKM"
+    ],
+    "taxonomyIndustry": [
+      "Medical & Laboratory Automation",
+      "Aerospace & Defense",
+      "Surgical Robotics"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
     "intent": "Informational",
@@ -11828,10 +14139,16 @@
     "contentType": "Blog",
     "publishDate": "2024-07-03",
     "lastUpdated": "2024-08-27",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "eVTOL"
+    ],
+    "taxonomyPaths": [
+      "Industry > eVTOL"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "eVTOL"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Servo Motor Products",
     "intent": "Informational",
@@ -11868,11 +14185,21 @@
     "contentType": "Blog",
     "publishDate": "2024-04-18",
     "lastUpdated": "2024-09-23",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "TBM2G",
+      "Direct Drive Frameless Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > TBM2G",
+      "Technology > Direct Drive Frameless Motors"
+    ],
+    "taxonomyProduct": [
+      "TBM2G"
+    ],
     "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTechnology": [
+      "Direct Drive Frameless Motors"
+    ],
     "cluster": "Frameless Motor Integration",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -11908,11 +14235,28 @@
     "contentType": "Blog",
     "publishDate": "2024-03-14",
     "lastUpdated": "2024-05-31",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "TBM2G",
+      "Robotics",
+      "Exoskeleton",
+      "Direct Drive Frameless Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > TBM2G",
+      "Industry > Robotics",
+      "Industry > Exoskeleton",
+      "Technology > Direct Drive Frameless Motors"
+    ],
+    "taxonomyProduct": [
+      "TBM2G"
+    ],
+    "taxonomyIndustry": [
+      "Robotics",
+      "Exoskeleton"
+    ],
+    "taxonomyTechnology": [
+      "Direct Drive Frameless Motors"
+    ],
     "cluster": "Frameless Motor Integration",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -11948,11 +14292,31 @@
     "contentType": "Blog",
     "publishDate": "2024-03-12",
     "lastUpdated": "2025-08-26",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "TBM2G",
+      "Robotics",
+      "Humanoids",
+      "Exoskeleton",
+      "Direct Drive Frameless Motors"
+    ],
+    "taxonomyPaths": [
+      "Product > TBM2G",
+      "Industry > Robotics",
+      "Industry > Humanoids",
+      "Industry > Exoskeleton",
+      "Technology > Direct Drive Frameless Motors"
+    ],
+    "taxonomyProduct": [
+      "TBM2G"
+    ],
+    "taxonomyIndustry": [
+      "Robotics",
+      "Humanoids",
+      "Exoskeleton"
+    ],
+    "taxonomyTechnology": [
+      "Direct Drive Frameless Motors"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -11988,10 +14352,19 @@
     "contentType": "Blog",
     "publishDate": "2024-02-26",
     "lastUpdated": "2024-04-11",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Aerospace & Defense",
+      "Missiles and Guided Munitions"
+    ],
+    "taxonomyPaths": [
+      "Industry > Aerospace & Defense",
+      "Industry > Missiles and Guided Munitions"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
+    "taxonomyIndustry": [
+      "Aerospace & Defense",
+      "Missiles and Guided Munitions"
+    ],
     "taxonomyTechnology": [],
     "cluster": "Frameless Motor Integration",
     "intent": "Informational",
@@ -12028,11 +14401,29 @@
     "contentType": "Blog",
     "publishDate": "2024-01-18",
     "lastUpdated": "2024-04-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Packaging",
+      "Intralogistics",
+      "Material Handling & AGV (Robotics)",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Industry > Packaging",
+      "Industry > Intralogistics",
+      "Industry > Material Handling & AGV (Robotics)",
+      "Industry > Automated Guided Vehicles",
+      "Technology > Automated Guided Vehicles"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyIndustry": [
+      "Packaging",
+      "Intralogistics",
+      "Material Handling & AGV (Robotics)",
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -12068,11 +14459,28 @@
     "contentType": "Blog",
     "publishDate": "2024-01-12",
     "lastUpdated": "2024-04-11",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyTerms": [
+      "AKMA",
+      "AKMH",
+      "Food & Beverage",
+      "Hygienic / washdown / foodgrade"
+    ],
+    "taxonomyPaths": [
+      "Product > AKMA",
+      "Product > AKMH",
+      "Industry > Food & Beverage",
+      "Technology > Hygienic / washdown / foodgrade"
+    ],
+    "taxonomyProduct": [
+      "AKMA",
+      "AKMH"
+    ],
+    "taxonomyIndustry": [
+      "Food & Beverage"
+    ],
+    "taxonomyTechnology": [
+      "Hygienic / washdown / foodgrade"
+    ],
     "cluster": "Safety & Compliance",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -12108,11 +14516,20 @@
     "contentType": "Blog",
     "publishDate": "2024-01-10",
     "lastUpdated": "2024-04-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
+    "taxonomyTerms": [
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyPaths": [
+      "Industry > Automated Guided Vehicles",
+      "Technology > Automated Guided Vehicles"
+    ],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
+    "taxonomyIndustry": [
+      "Automated Guided Vehicles"
+    ],
+    "taxonomyTechnology": [
+      "Automated Guided Vehicles"
+    ],
     "cluster": "Robotics & Mobile Automation",
     "intent": "Informational",
     "journeyStage": "Awareness",
@@ -12392,9 +14809,15 @@
     "contentType": "Article",
     "publishDate": "2024-12-04",
     "lastUpdated": "2024-12-04",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KAS"
+    ],
+    "taxonomyPaths": [
+      "Product > KAS"
+    ],
+    "taxonomyProduct": [
+      "KAS"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Safety & Compliance",
@@ -12427,9 +14850,18 @@
     "contentType": "Article",
     "publishDate": "2024-10-30",
     "lastUpdated": "2024-10-30",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM",
+      "PCMM2G"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM",
+      "Product > PCMM2G"
+    ],
+    "taxonomyProduct": [
+      "PCMM",
+      "PCMM2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "",
@@ -12567,9 +14999,30 @@
     "contentType": "Article",
     "publishDate": "2024-06-19",
     "lastUpdated": "2024-06-19",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KAS",
+      "KAS IDE",
+      "PCMM",
+      "PCMM2G",
+      "AKD",
+      "AKD2G"
+    ],
+    "taxonomyPaths": [
+      "Product > KAS",
+      "Product > KAS IDE",
+      "Product > PCMM",
+      "Product > PCMM2G",
+      "Product > AKD",
+      "Product > AKD2G"
+    ],
+    "taxonomyProduct": [
+      "KAS",
+      "KAS IDE",
+      "PCMM",
+      "PCMM2G",
+      "AKD",
+      "AKD2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -12637,9 +15090,15 @@
     "contentType": "Article",
     "publishDate": "2024-01-10",
     "lastUpdated": "2024-05-01",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD"
+    ],
+    "taxonomyProduct": [
+      "AKD"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -12707,9 +15166,18 @@
     "contentType": "Article",
     "publishDate": "2024-03-25",
     "lastUpdated": "2024-04-02",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "KAS",
+      "KAS IDE"
+    ],
+    "taxonomyPaths": [
+      "Product > KAS",
+      "Product > KAS IDE"
+    ],
+    "taxonomyProduct": [
+      "KAS",
+      "KAS IDE"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Motion Control Components",
@@ -12777,9 +15245,27 @@
     "contentType": "Article",
     "publishDate": "2024-01-30",
     "lastUpdated": "2024-03-25",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "PCMM",
+      "PCMM2G",
+      "AKD PDMM",
+      "KAS",
+      "AKD2G"
+    ],
+    "taxonomyPaths": [
+      "Product > PCMM",
+      "Product > PCMM2G",
+      "Product > AKD PDMM",
+      "Product > KAS",
+      "Product > AKD2G"
+    ],
+    "taxonomyProduct": [
+      "PCMM",
+      "PCMM2G",
+      "AKD PDMM",
+      "KAS",
+      "AKD2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
@@ -12812,9 +15298,15 @@
     "contentType": "Article",
     "publishDate": "2024-01-23",
     "lastUpdated": "2024-08-06",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
+    "taxonomyTerms": [
+      "AKD2G"
+    ],
+    "taxonomyPaths": [
+      "Product > AKD2G"
+    ],
+    "taxonomyProduct": [
+      "AKD2G"
+    ],
     "taxonomyIndustry": [],
     "taxonomyTechnology": [],
     "cluster": "Technical Training & Downloads",
