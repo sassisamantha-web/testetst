@@ -815,11 +815,6 @@ function splitMulti(v){
     .map(function(s){ return s.trim(); })
     .filter(Boolean);
 }
-  return String(v || '')
-    .split(/[;,|]/)
-    .map(function(s){ return s.trim(); })
-    .filter(Boolean);
-}
 function headerKey(h){
   return String(h||'')
     .replace(/[\r\n]+/g,' ')
