@@ -423,12 +423,22 @@ const TC={'White Paper':['#EEF2FF','#3730A3'],'Blog':['#F0FDF4','#166534'],'Arti
 ALL.forEach(i=>{
   i.section=(i.url||'').includes('/developer-network/')?'KDN':'MRK';
   i.language=i.locale;
-  i.taxonomyProduct=Array.isArray(i.taxonomyProduct)?i.taxonomyProduct:splitMulti(i.taxonomyProduct);
-  i.taxonomyIndustry=Array.isArray(i.taxonomyIndustry)?i.taxonomyIndustry:splitMulti(i.taxonomyIndustry);
-  i.taxonomyTechnology=Array.isArray(i.taxonomyTechnology)?i.taxonomyTechnology:splitMulti(i.taxonomyTechnology);
-  i.taxonomyTerms=Array.isArray(i.taxonomyTerms)?i.taxonomyTerms:splitMulti(i.taxonomyTerms);
-  i.taxonomyPaths=Array.isArray(i.taxonomyPaths)?i.taxonomyPaths:splitMulti(i.taxonomyPaths);
-});
+i.taxonomyProduct = splitMulti(i.taxonomyProduct);
+i.taxonomyIndustry = splitMulti(i.taxonomyIndustry);
+i.taxonomyTechnology = splitMulti(i.taxonomyTechnology);
+ 
+i.taxonomyTerms = uniqueList([]
+  .concat(splitMulti(i.taxonomyTerms))
+  .concat(i.taxonomyProduct)
+  .concat(i.taxonomyIndustry)
+  .concat(i.taxonomyTechnology)
+);
+ 
+i.taxonomyPaths = buildTaxonomyPaths(
+  i.taxonomyProduct,
+  i.taxonomyIndustry,
+  i.taxonomyTechnology
+);
 function fB(i){const d=i.lastUpdated||i.publishDate;if(!d)return'unknown';const m=(REF-new Date(d))/(1000*60*60*24*30.44);if(isNaN(m))return'unknown';if(m<=6)return'fresh';if(m<=12)return'aging';if(m<=24)return'stale';return'old';}
 const uniq=k=>[...new Set(ALL.map(i=>i[k]).filter(Boolean))].sort();
 const TYPES=uniq('contentType');const INTENTS=uniq('intent');const FUNNELS=uniq('journeyStage');
@@ -797,7 +807,17 @@ moveResultCountNearSearch();uAll();bMatrix();bFresh();bJourney();bLangMx();bPubV
 var UPLOAD_STATE={file:null, parsedRows:[], parsedItems:[], duplicates:[], conflicts:[], section:'auto'};
 
 function splitMulti(v){
-  return String(v||'').split(/[;,|]/).map(function(s){return s.trim();}).filter(Boolean);
+  if(Array.isArray(v)){
+    return v
+      .flatMap(function(x){ return String(x || '').split(/[;,|]/); })
+      .map(function(s){ return s.trim(); })
+      .filter(Boolean);
+  }
+ 
+  return String(v || '')
+    .split(/[;,|]/)
+    .map(function(s){ return s.trim(); })
+    .filter(Boolean);
 }
 function headerKey(h){
   return String(h||'')
