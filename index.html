@@ -423,22 +423,23 @@ const TC={'White Paper':['#EEF2FF','#3730A3'],'Blog':['#F0FDF4','#166534'],'Arti
 ALL.forEach(i=>{
   i.section=(i.url||'').includes('/developer-network/')?'KDN':'MRK';
   i.language=i.locale;
-i.taxonomyProduct = splitMulti(i.taxonomyProduct);
-i.taxonomyIndustry = splitMulti(i.taxonomyIndustry);
-i.taxonomyTechnology = splitMulti(i.taxonomyTechnology);
  
-i.taxonomyTerms = uniqueList([]
-  .concat(splitMulti(i.taxonomyTerms))
-  .concat(i.taxonomyProduct)
-  .concat(i.taxonomyIndustry)
-  .concat(i.taxonomyTechnology)
-);
+  i.taxonomyProduct=splitMulti(i.taxonomyProduct);
+  i.taxonomyIndustry=splitMulti(i.taxonomyIndustry);
+  i.taxonomyTechnology=splitMulti(i.taxonomyTechnology);
  
-i.taxonomyPaths = buildTaxonomyPaths(
-  i.taxonomyProduct,
-  i.taxonomyIndustry,
-  i.taxonomyTechnology
-);
+  i.taxonomyTerms=[
+    ...i.taxonomyProduct,
+    ...i.taxonomyIndustry,
+    ...i.taxonomyTechnology
+  ];
+ 
+  i.taxonomyPaths=[
+    ...i.taxonomyProduct.map(v=>'Product > '+v),
+    ...i.taxonomyIndustry.map(v=>'Industry > '+v),
+    ...i.taxonomyTechnology.map(v=>'Technology > '+v)
+  ];
+});
 function fB(i){const d=i.lastUpdated||i.publishDate;if(!d)return'unknown';const m=(REF-new Date(d))/(1000*60*60*24*30.44);if(isNaN(m))return'unknown';if(m<=6)return'fresh';if(m<=12)return'aging';if(m<=24)return'stale';return'old';}
 const uniq=k=>[...new Set(ALL.map(i=>i[k]).filter(Boolean))].sort();
 const TYPES=uniq('contentType');const INTENTS=uniq('intent');const FUNNELS=uniq('journeyStage');
@@ -805,15 +806,15 @@ function uAll(){
 moveResultCountNearSearch();uAll();bMatrix();bFresh();bJourney();bLangMx();bPubVsUpdated();
 
 var UPLOAD_STATE={file:null, parsedRows:[], parsedItems:[], duplicates:[], conflicts:[], section:'auto'};
-
 function splitMulti(v){
   if(Array.isArray(v)){
-    return v
-      .flatMap(function(x){ return String(x || '').split(/[;,|]/); })
-      .map(function(s){ return s.trim(); })
-      .filter(Boolean);
+    v = v.join(',');
   }
- 
+  return String(v || '')
+    .split(/[;,|]/)
+    .map(function(s){ return s.trim(); })
+    .filter(Boolean);
+}
   return String(v || '')
     .split(/[;,|]/)
     .map(function(s){ return s.trim(); })
