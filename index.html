@@ -167,6 +167,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-seri
 /* INSIGHTS */
 .ins-grid{display:flex;flex-direction:column;gap:24px}
 .ins-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);padding:24px}
+.ins-card-row{display:flex;gap:0;padding:0;overflow:hidden}
+.ins-half{flex:1;padding:24px;min-width:0}
+.ins-divider{width:1px;background:var(--border);flex-shrink:0}
+.ins-tax-lbl{font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid var(--border)}
 .ins-t{font-size:.95rem;font-weight:700;margin-bottom:3px}
 .ins-s{font-size:.8rem;color:var(--muted);margin-bottom:20px}
 .mx-wrap{overflow-x:auto}
@@ -238,11 +242,25 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-seri
 </div>
 <div class="pane active" id="pane-browse"><main class="main"><div class="cgrid" id="cgrid"></div></main></div>
 <div class="pane" id="pane-insights"><main class="main"><div class="ins-grid">
-  <div class="ins-card"><div class="ins-t">Taxonomy &times; Content Type</div><div class="ins-s">Click a cell to filter Browse by that taxonomy term and content type combination</div><div class="mx-wrap" id="mx-wrap"></div></div>
-  <div class="ins-card"><div class="ins-t">Content Freshness Distribution</div><div class="ins-s">Based on Last Updated date (fallback: Publish Date). Click a bar to filter.</div><div class="bar-chart" id="fresh-chart"></div></div>
   <div class="ins-card"><div class="ins-t">Journey Stage Distribution</div><div class="ins-s">Number of items per customer journey stage. Click a bar to filter.</div><div class="bar-chart" id="journey-chart"></div></div>
+  <div class="ins-card ins-card-row">
+    <div class="ins-half"><div class="ins-t">Content Freshness Distribution</div><div class="ins-s">Based on Last Updated date (fallback: Publish Date). Click a bar to filter.</div><div class="bar-chart" id="fresh-chart"></div></div>
+    <div class="ins-divider"></div>
+    <div class="ins-half"><div class="ins-t">Publication vs Last Update</div><div class="ins-s">Colore basato sul bucket Last Update: verde=fresh → rosso=old. Click per filtrare.</div><div class="mx-wrap" id="pubupd-wrap"></div></div>
+  </div>
   <div class="ins-card"><div class="ins-t">Language Coverage by Content Type</div><div class="ins-s">Locale versions available per content type. Click a cell to filter.</div><div class="lm-wrap" id="lang-mx"></div></div>
-  <div class="ins-card"><div class="ins-t">Publication vs Last Update</div><div class="ins-s">Correlation between original publication timing and most recent update timing.</div><div class="mx-wrap" id="pubupd-wrap"></div></div>
+  <div class="ins-card ins-card-row">
+    <div class="ins-half"><div class="ins-t">Gated Content</div><div class="ins-s">Distribution of gated vs non-gated content. Click a bar to filter.</div><div class="bar-chart" id="gated-chart"></div></div>
+    <div class="ins-divider"></div>
+    <div class="ins-half"><div class="ins-t">Automatic Download</div><div class="ins-s">Distribution of automatic download content. Click a bar to filter.</div><div class="bar-chart" id="autodown-chart"></div></div>
+  </div>
+  <div class="ins-card">
+    <div class="ins-t">Taxonomy &times; Content Type</div><div class="ins-s">Click a cell to filter Browse by that taxonomy and content type combination</div>
+    <div style="margin-bottom:18px"><div class="ins-tax-lbl">Macro Overview</div><div class="mx-wrap" id="mx-macro"></div></div>
+    <div style="margin-bottom:18px"><div class="ins-tax-lbl">Product</div><div class="mx-wrap" id="mx-product"></div></div>
+    <div style="margin-bottom:18px"><div class="ins-tax-lbl">Industry</div><div class="mx-wrap" id="mx-industry"></div></div>
+    <div><div class="ins-tax-lbl">Technology</div><div class="mx-wrap" id="mx-technology"></div></div>
+  </div>
 </div></main></div>
 <div class="pane" id="pane-seo"><main class="main"><div class="ph"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg><h2>SEO Analysis</h2><p>Keyword performance, meta title/description audit, readability scoring, and on-page SEO recommendations — coming soon.</p></div></main></div>
 <div class="pane" id="pane-upload"><main class="main">
@@ -681,46 +699,8 @@ function tooBrowse(){
   document.getElementById('pane-browse').classList.add('active');
   document.getElementById('fbar').style.display='';
 }
-function bMatrix(){
-  const freq={};ALL.forEach(i=>(i.taxonomyTerms||[]).forEach(t=>{freq[t]=(freq[t]||0)+1;}));
-  const tops=Object.entries(freq).sort((a,b)=>b[1]-a[1]).slice(0,12).map(e=>e[0]);tops.push('(None)');
-  const mx={};tops.forEach(t=>{mx[t]={};TYPES.forEach(ct=>{mx[t][ct]=0;});});
-  ALL.forEach(i=>{const ct=i.contentType;if(!ct)return;const terms=(i.taxonomyTerms||[]).length?i.taxonomyTerms:['(None)'];terms.forEach(t=>{if(mx[t])mx[t][ct]=(mx[t][ct]||0)+1;});});
-  const maxV=Math.max(...tops.flatMap(t=>TYPES.map(ct=>mx[t][ct]||0)),1);
-  const wrap=document.getElementById('mx-wrap');const tbl=document.createElement('table');tbl.className='mx-tbl';
-  const thead=document.createElement('thead');const hr=document.createElement('tr');
-  hr.appendChild(Object.assign(document.createElement('th'),{className:'mx-rh'}));
-  TYPES.forEach(ct=>{const th=document.createElement('th');th.textContent=ct;hr.appendChild(th);});
-  const toth=document.createElement('th');toth.textContent='Total';toth.style.color='var(--muted)';hr.appendChild(toth);
-  thead.appendChild(hr);tbl.appendChild(thead);
-  const tbody=document.createElement('tbody');
-  tops.forEach(term=>{
-    const tr=document.createElement('tr');const rh=document.createElement('th');rh.className='mx-rh';rh.textContent=term;tr.appendChild(rh);
-    let rowTot=0;
-    TYPES.forEach(ct=>{
-      const val=mx[term][ct]||0;rowTot+=val;const td=document.createElement('td');
-      const cell=document.createElement('div');cell.className='mcell'+(val===0?' mt-empty':'');
-      if(val>0){
-        const a=0.12+(val/maxV)*0.72;cell.style.background=`rgba(37,99,235,${a.toFixed(2)})`;cell.style.color=a>0.45?'#fff':'#1D4ED8';cell.textContent=val;cell.title=`${term} × ${ct}: ${val}`;
-        cell.addEventListener('click',()=>{
-          tooBrowse();S.type.clear();S.type.add(ct);
-          if(TAX_P.includes(term))S.taxP.add(term);else if(TAX_I.includes(term))S.taxI.add(term);else if(TAX_T.includes(term))S.taxT.add(term);
-          document.querySelectorAll('#menu-type input').forEach(cb=>cb.checked=S.type.has(cb.value));
-          document.querySelectorAll('[data-tk]').forEach(cb=>{const k=cb.dataset.tk;cb.checked=S[k]&&S[k].has(cb.value);});
-          uAll();
-        });
-      }
-      td.appendChild(cell);tr.appendChild(td);
-    });
-    const totTd=document.createElement('td');const totC=document.createElement('div');totC.className='mtot';totC.textContent=rowTot||'0';totTd.appendChild(totC);tr.appendChild(totTd);tbody.appendChild(tr);
-  });
-  const totr=document.createElement('tr');const tl=document.createElement('th');tl.className='mx-rh';tl.style.fontWeight='700';tl.textContent='Total';totr.appendChild(tl);
-  TYPES.forEach(ct=>{const sum=tops.reduce((a,t)=>a+(mx[t][ct]||0),0);const td=document.createElement('td');const c=document.createElement('div');c.className='mtot';c.style.fontWeight='800';c.textContent=sum||'0';td.appendChild(c);totr.appendChild(td);});
-  const gtd=document.createElement('td');const gc=document.createElement('div');gc.className='mtot';gc.style.color='var(--accent)';gc.style.fontWeight='800';gc.textContent=ALL.length;gtd.appendChild(gc);totr.appendChild(gtd);tbody.appendChild(totr);
-  tbl.appendChild(tbody);wrap.innerHTML='';wrap.appendChild(tbl);
-}
 function bBar(cId,data,colors,onClick){
-  const chart=document.getElementById(cId);chart.innerHTML='';
+  const chart=document.getElementById(cId);if(!chart)return;chart.innerHTML='';
   const maxN=Math.max(...Object.values(data),1);const tot=Object.values(data).reduce((a,b)=>a+b,0);
   Object.entries(data).forEach(([lbl,n])=>{
     const row=document.createElement('div');row.className='br-r';const pct=tot>0?Math.round((n/tot)*100):0;
@@ -729,29 +709,63 @@ function bBar(cId,data,colors,onClick){
     chart.appendChild(row);
   });
 }
-function bFresh(){
-  const c={fresh:0,aging:0,stale:0,old:0,unknown:0};ALL.forEach(i=>c[fB(i)]++);
+function bFresh(items){
+  const c={fresh:0,aging:0,stale:0,old:0,veryold:0,ancient:0,unknown:0};
+  items.forEach(i=>c[fB(i)]++);
   const cols={fresh:'var(--fresh-bar)',aging:'var(--aging-bar)',stale:'var(--stale-bar)',old:'var(--old-bar)',veryold:'var(--veryold-bar)',ancient:'var(--ancient-bar)',unknown:'var(--unk-bar)'};
   const labeled={};BUCKETS.forEach(b=>{labeled[BLABEL[b]]=c[b];});const cL={};BUCKETS.forEach(b=>{cL[BLABEL[b]]=cols[b];});
   bBar('fresh-chart',labeled,cL,lbl=>{const bkt=BUCKETS.find(b=>BLABEL[b]===lbl);if(!bkt)return;tooBrowse();S.fresh.clear();S.fresh.add(bkt);document.querySelectorAll('#menu-fresh input').forEach(cb=>cb.checked=S.fresh.has(cb.value));uAll();});
 }
-function bJourney(){
-  const c={};ALL.forEach(i=>{const j=i.journeyStage||'Unknown';c[j]=(c[j]||0)+1;});
+function bJourney(items){
+  const c={};items.forEach(i=>{const j=i.journeyStage||'Unknown';c[j]=(c[j]||0)+1;});
   const cols={Awareness:'#818CF8',Consideration:'#34D399',Decision:'#F59E0B',Unknown:'#CBD5E1'};
   bBar('journey-chart',c,cols,lbl=>{tooBrowse();S.funnel.clear();S.funnel.add(lbl);document.querySelectorAll('#menu-funnel input').forEach(cb=>cb.checked=S.funnel.has(cb.value));uAll();});
 }
-function bPubVsUpdated(){
-  const wrap=document.getElementById('pubupd-wrap'); if(!wrap) return;
-  const rows=BUCKETS, cols=BUCKETS; const mx={}; rows.forEach(r=>{mx[r]={}; cols.forEach(c=>mx[r][c]=0);});
-  ALL.forEach(i=>{ const pb=bucketFromDateValue(i.publishDate); const ub=bucketFromDateValue(i.lastUpdated||i.publishDate); mx[pb][ub]++; });
+function bGated(items){
+  const c={'Yes':0,'No':0};items.forEach(i=>{const v=i.gated||'No';c[v]=(c[v]||0)+1;});
+  bBar('gated-chart',c,{'Yes':'#F87171','No':'#4ADE80'},lbl=>{tooBrowse();S.gated.clear();S.gated.add(lbl);document.querySelectorAll('#menu-gated input').forEach(cb=>cb.checked=S.gated.has(cb.value));uAll();});
+}
+function bAutoDown(items){
+  const c={'Yes':0,'No':0};items.forEach(i=>{const v=i.automaticDownload||'No';c[v]=(c[v]||0)+1;});
+  bBar('autodown-chart',c,{'Yes':'#60A5FA','No':'#94A3B8'},lbl=>{tooBrowse();S.autodown.clear();S.autodown.add(lbl);document.querySelectorAll('#menu-autodown input').forEach(cb=>cb.checked=S.autodown.has(cb.value));uAll();});
+}
+// Color grading for pub vs last update: based on Last Update bucket (column)
+// fresh=green, aging=yellow-green, stale=amber, old=orange, veryold=red-orange, ancient=red, unknown=grey
+const PUB_UPD_COLORS={
+  fresh:'34,197,94', aging:'132,204,22', stale:'234,179,8', old:'249,115,22', veryold:'239,68,68', ancient:'185,28,28', unknown:'148,163,184'
+};
+function bPubVsUpdated(items){
+  const wrap=document.getElementById('pubupd-wrap');if(!wrap)return;
+  const rows=BUCKETS,cols=BUCKETS;const mx={};rows.forEach(r=>{mx[r]={};cols.forEach(c=>mx[r][c]=0);});
+  items.forEach(i=>{const pb=bucketFromDateValue(i.publishDate);const ub=bucketFromDateValue(i.lastUpdated||i.publishDate);mx[pb][ub]++;});
   const maxV=Math.max(1,...rows.flatMap(r=>cols.map(c=>mx[r][c])));
-  const tbl=document.createElement('table'); tbl.className='mx-tbl'; const thead=document.createElement('thead'); const hr=document.createElement('tr');
-  hr.appendChild(Object.assign(document.createElement('th'),{className:'mx-rh'})); cols.forEach(c=>{const th=document.createElement('th'); th.textContent='LU '+BLABEL[c]; hr.appendChild(th);}); thead.appendChild(hr); tbl.appendChild(thead);
-  const tbody=document.createElement('tbody'); rows.forEach(r=>{ const tr=document.createElement('tr'); const rh=document.createElement('th'); rh.className='mx-rh'; rh.textContent='PUB '+BLABEL[r]; tr.appendChild(rh); cols.forEach(c=>{ const val=mx[r][c]||0; const td=document.createElement('td'); const cell=document.createElement('div'); cell.className='mcell'+(val===0?' mt-empty':''); if(val>0){ const a=0.12+(val/maxV)*0.72; cell.style.background='rgba(37,99,235,'+a.toFixed(2)+')'; cell.style.color=a>0.45?'#fff':'#1D4ED8'; cell.textContent=val; cell.title='Published '+BLABEL[r]+' · Last update '+BLABEL[c]+': '+val; (function(pb,ub){ cell.addEventListener('click',function(){ tooBrowse(); S.pubBucket=pb; S.updBucket=ub; uAll(); }); })(r,c); } td.appendChild(cell); tr.appendChild(td); }); tbody.appendChild(tr); }); tbl.appendChild(tbody); wrap.innerHTML=''; wrap.appendChild(tbl); }
-
-function bLangMx(){
+  const tbl=document.createElement('table');tbl.className='mx-tbl';const thead=document.createElement('thead');const hr=document.createElement('tr');
+  hr.appendChild(Object.assign(document.createElement('th'),{className:'mx-rh'}));
+  cols.forEach(c=>{const th=document.createElement('th');th.textContent='LU '+BLABEL[c];hr.appendChild(th);});
+  thead.appendChild(hr);tbl.appendChild(thead);
+  const tbody=document.createElement('tbody');
+  rows.forEach(r=>{
+    const tr=document.createElement('tr');const rh=document.createElement('th');rh.className='mx-rh';rh.textContent='PUB '+BLABEL[r];tr.appendChild(rh);
+    cols.forEach(c=>{
+      const val=mx[r][c]||0;const td=document.createElement('td');const cell=document.createElement('div');
+      cell.className='mcell'+(val===0?' mt-empty':'');
+      if(val>0){
+        const rgb=PUB_UPD_COLORS[c]||PUB_UPD_COLORS.unknown;
+        const a=0.15+(val/maxV)*0.75;
+        cell.style.background=`rgba(${rgb},${a.toFixed(2)})`;
+        cell.style.color=a>0.5?'#fff':'#1e293b';
+        cell.textContent=val;cell.title='Published '+BLABEL[r]+' · Last update '+BLABEL[c]+': '+val;
+        (function(pb,ub){cell.addEventListener('click',function(){tooBrowse();S.pubBucket=pb;S.updBucket=ub;uAll();});})(r,c);
+      }
+      td.appendChild(cell);tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  });
+  tbl.appendChild(tbody);wrap.innerHTML='';wrap.appendChild(tbl);
+}
+function bLangMx(items){
   var locales=Object.keys(LANG_MAP);
-  var wrap=document.getElementById('lang-mx');
+  var wrap=document.getElementById('lang-mx');if(!wrap)return;
   var tbl=document.createElement('table');tbl.className='lm-tbl';
   var thead=document.createElement('thead');var hr=document.createElement('tr');
   hr.appendChild(Object.assign(document.createElement('th'),{className:'lm-rh'}));
@@ -760,70 +774,106 @@ function bLangMx(){
   thead.appendChild(hr);tbl.appendChild(thead);
   var tbody=document.createElement('tbody');
   var colTotals={};locales.forEach(function(l){colTotals[l]=0;});
-  TYPES.forEach(function(ct){
-    var tr=document.createElement('tr');
-    var rh=document.createElement('th');rh.className='lm-rh';rh.textContent=ct;tr.appendChild(rh);
+  var types=[...new Set(items.map(i=>i.contentType).filter(Boolean))].sort();
+  types.forEach(function(ct){
+    var tr=document.createElement('tr');var rh=document.createElement('th');rh.className='lm-rh';rh.textContent=ct;tr.appendChild(rh);
     var rowTotal=0;
     locales.forEach(function(locale){
-      var cnt=ALL.filter(function(i){return i.contentType===ct&&i.localeUrls&&i.localeUrls[locale];}).length;
-      colTotals[locale]=(colTotals[locale]||0)+cnt;
-      rowTotal+=cnt;
-      var td=document.createElement('td');
-      var cell=document.createElement('div');
-      cell.className='lm-c '+(cnt>0?'lm-y':'lm-n');
-      cell.textContent=cnt>0?String(cnt):'\u2014';
-      if(cnt>0){
-        cell.title=ct+' in '+LANG_MAP[locale]+': '+cnt;
-        (
-function(ct2, locale2){
-  cell.addEventListener('click', function(){
-    tooBrowse();
-    S.type.clear(); S.type.add(ct2);
-    S.lang.clear(); S.lang.add(locale2);
-    document.querySelectorAll('#menu-type input').forEach(function(cb){
-      cb.checked = S.type.has(cb.value);
+      var cnt=items.filter(function(i){return i.contentType===ct&&i.localeUrls&&i.localeUrls[locale];}).length;
+      colTotals[locale]=(colTotals[locale]||0)+cnt;rowTotal+=cnt;
+      var td=document.createElement('td');var cell=document.createElement('div');
+      cell.className='lm-c '+(cnt>0?'lm-y':'lm-n');cell.textContent=cnt>0?String(cnt):'\u2014';
+      if(cnt>0){cell.title=ct+' in '+LANG_MAP[locale]+': '+cnt;(function(ct2,locale2){cell.addEventListener('click',function(){tooBrowse();S.type.clear();S.type.add(ct2);S.lang.clear();S.lang.add(locale2);document.querySelectorAll('#menu-type input').forEach(function(cb){cb.checked=S.type.has(cb.value);});document.querySelectorAll('#menu-lang input').forEach(function(cb){cb.checked=S.lang.has(cb.value);});uAll();});})(ct,locale);}
+      td.appendChild(cell);tr.appendChild(td);
     });
-    document.querySelectorAll('#menu-lang input').forEach(function(cb){
-      cb.checked = S.lang.has(cb.value);
-    });
-    uAll();
+    var rtd=document.createElement('td');var rc=document.createElement('div');rc.className='lm-c';rc.style.cssText='background:#F1F5F9;color:var(--text2);font-weight:700';rc.textContent=rowTotal>0?String(rowTotal):'\u2014';rtd.appendChild(rc);tr.appendChild(rtd);tbody.appendChild(tr);
   });
-})(ct, locale);
+  var totr=document.createElement('tr');var tlb=document.createElement('th');tlb.className='lm-rh';tlb.style.fontWeight='700';tlb.textContent='Total';totr.appendChild(tlb);
+  var grand=0;
+  locales.forEach(function(locale){var n=colTotals[locale]||0;grand+=n;var td=document.createElement('td');var cv=document.createElement('div');cv.className='lm-c';cv.style.cssText='background:#F1F5F9;color:var(--text2);font-weight:700';cv.textContent=n>0?String(n):'\u2014';td.appendChild(cv);totr.appendChild(td);});
+  var gtd=document.createElement('td');var gv=document.createElement('div');gv.className='lm-c';gv.style.cssText='background:var(--accent-l);color:var(--accent);font-weight:800';gv.textContent=String(grand);gtd.appendChild(gv);totr.appendChild(gtd);tbody.appendChild(totr);
+  tbl.appendChild(tbody);wrap.innerHTML='';wrap.appendChild(tbl);
+}
+function buildTaxMatrix(wrapId, terms, taxKey, items){
+  const wrap=document.getElementById(wrapId);if(!wrap)return;
+  if(!terms.length){wrap.innerHTML='<div style="font-size:.8rem;color:var(--muted);padding:8px 0">No data</div>';return;}
+  const types=[...new Set(items.map(i=>i.contentType).filter(Boolean))].sort();
+  const mx={};terms.forEach(t=>{mx[t]={};types.forEach(ct=>{mx[t][ct]=0;});});
+  items.forEach(i=>{const ct=i.contentType;if(!ct)return;const arr=Array.isArray(i[taxKey])?i[taxKey]:[];arr.forEach(t=>{if(mx[t])mx[t][ct]++;});});
+  const maxV=Math.max(...terms.flatMap(t=>types.map(ct=>mx[t][ct]||0)),1);
+  const tbl=document.createElement('table');tbl.className='mx-tbl';
+  const thead=document.createElement('thead');const hr=document.createElement('tr');
+  hr.appendChild(Object.assign(document.createElement('th'),{className:'mx-rh'}));
+  types.forEach(ct=>{const th=document.createElement('th');th.textContent=ct;hr.appendChild(th);});
+  const toth=document.createElement('th');toth.textContent='Total';toth.style.color='var(--muted)';hr.appendChild(toth);
+  thead.appendChild(hr);tbl.appendChild(thead);
+  const tbody=document.createElement('tbody');
+  terms.forEach(term=>{
+    const tr=document.createElement('tr');const rh=document.createElement('th');rh.className='mx-rh';rh.textContent=term;tr.appendChild(rh);
+    let rowTot=0;
+    types.forEach(ct=>{
+      const val=mx[term][ct]||0;rowTot+=val;const td=document.createElement('td');
+      const cell=document.createElement('div');cell.className='mcell'+(val===0?' mt-empty':'');
+      if(val>0){
+        const a=0.12+(val/maxV)*0.72;cell.style.background=`rgba(37,99,235,${a.toFixed(2)})`;cell.style.color=a>0.45?'#fff':'#1D4ED8';cell.textContent=val;cell.title=`${term} × ${ct}: ${val}`;
+        (function(t,c,k){cell.addEventListener('click',()=>{tooBrowse();S.type.clear();S.type.add(c);if(k==='taxonomyProduct')S.taxP.add(t);else if(k==='taxonomyIndustry')S.taxI.add(t);else S.taxT.add(t);document.querySelectorAll('#menu-type input').forEach(cb=>cb.checked=S.type.has(cb.value));document.querySelectorAll('[data-tk]').forEach(cb=>{const kk=cb.dataset.tk;cb.checked=S[kk]&&S[kk].has(cb.value);});uAll();});})(term,ct,taxKey);
       }
       td.appendChild(cell);tr.appendChild(td);
     });
-    var rtd=document.createElement('td');
-    var rc=document.createElement('div');
-    rc.className='lm-c';
-    rc.style.cssText='background:#F1F5F9;color:var(--text2);font-weight:700';
-    rc.textContent=rowTotal>0?String(rowTotal):'\u2014';
-    rtd.appendChild(rc);tr.appendChild(rtd);
-    tbody.appendChild(tr);
+    const totTd=document.createElement('td');const totC=document.createElement('div');totC.className='mtot';totC.textContent=rowTot||'0';totTd.appendChild(totC);tr.appendChild(totTd);tbody.appendChild(tr);
   });
-  var totr=document.createElement('tr');
-  var tlb=document.createElement('th');tlb.className='lm-rh';tlb.style.fontWeight='700';tlb.textContent='Total';totr.appendChild(tlb);
-  var grand=0;
-  locales.forEach(function(locale){
-    var n=colTotals[locale]||0;grand+=n;
-    var td=document.createElement('td');
-    var cv=document.createElement('div');cv.className='lm-c';
-    cv.style.cssText='background:#F1F5F9;color:var(--text2);font-weight:700';
-    cv.textContent=n>0?String(n):'\u2014';
-    td.appendChild(cv);totr.appendChild(td);
+  // Total row
+  const totr=document.createElement('tr');const tl=document.createElement('th');tl.className='mx-rh';tl.style.fontWeight='700';tl.textContent='Total';totr.appendChild(tl);
+  types.forEach(ct=>{const sum=terms.reduce((a,t)=>a+(mx[t][ct]||0),0);const td=document.createElement('td');const c=document.createElement('div');c.className='mtot';c.style.fontWeight='800';c.textContent=sum||'0';td.appendChild(c);totr.appendChild(td);});
+  const gtd=document.createElement('td');const gc=document.createElement('div');gc.className='mtot';gc.style.color='var(--accent)';gc.style.fontWeight='800';gc.textContent=terms.reduce((a,t)=>a+types.reduce((b,ct)=>b+(mx[t][ct]||0),0),0);gtd.appendChild(gc);totr.appendChild(gtd);
+  tbody.appendChild(totr);tbl.appendChild(tbody);wrap.innerHTML='';wrap.appendChild(tbl);
+}
+function bMacroMatrix(items){
+  const wrap=document.getElementById('mx-macro');if(!wrap)return;
+  const types=[...new Set(items.map(i=>i.contentType).filter(Boolean))].sort();
+  const macros=['Product','Industry','Technology'];
+  const taxKeys={Product:'taxonomyProduct',Industry:'taxonomyIndustry',Technology:'taxonomyTechnology'};
+  const mx={};macros.forEach(m=>{mx[m]={};types.forEach(ct=>{mx[m][ct]=0;});});
+  items.forEach(i=>{const ct=i.contentType;if(!ct)return;macros.forEach(m=>{const arr=Array.isArray(i[taxKeys[m]])?i[taxKeys[m]]:[];if(arr.length)arr.forEach(()=>mx[m][ct]++);});});
+  const maxV=Math.max(...macros.flatMap(m=>types.map(ct=>mx[m][ct]||0)),1);
+  const tbl=document.createElement('table');tbl.className='mx-tbl';
+  const thead=document.createElement('thead');const hr=document.createElement('tr');
+  hr.appendChild(Object.assign(document.createElement('th'),{className:'mx-rh'}));
+  types.forEach(ct=>{const th=document.createElement('th');th.textContent=ct;hr.appendChild(th);});
+  const toth=document.createElement('th');toth.textContent='Total';toth.style.color='var(--muted)';hr.appendChild(toth);
+  thead.appendChild(hr);tbl.appendChild(thead);
+  const tbody=document.createElement('tbody');
+  macros.forEach(m=>{
+    const tr=document.createElement('tr');const rh=document.createElement('th');rh.className='mx-rh';rh.style.fontWeight='700';rh.textContent=m;tr.appendChild(rh);
+    let rowTot=0;
+    types.forEach(ct=>{
+      const val=mx[m][ct]||0;rowTot+=val;const td=document.createElement('td');
+      const cell=document.createElement('div');cell.className='mcell'+(val===0?' mt-empty':'');
+      if(val>0){const a=0.12+(val/maxV)*0.72;cell.style.background=`rgba(37,99,235,${a.toFixed(2)})`;cell.style.color=a>0.45?'#fff':'#1D4ED8';cell.textContent=val;}
+      td.appendChild(cell);tr.appendChild(td);
+    });
+    const totTd=document.createElement('td');const totC=document.createElement('div');totC.className='mtot';totC.textContent=rowTot||'0';totTd.appendChild(totC);tr.appendChild(totTd);tbody.appendChild(tr);
   });
-  var gtd=document.createElement('td');
-  var gv=document.createElement('div');gv.className='lm-c';
-  gv.style.cssText='background:var(--accent-l);color:var(--accent);font-weight:800';
-  gv.textContent=String(grand);
-  gtd.appendChild(gv);totr.appendChild(gtd);
-  tbody.appendChild(totr);
   tbl.appendChild(tbody);wrap.innerHTML='';wrap.appendChild(tbl);
+}
+function bMatrix(items){
+  const taxP=[...new Set(items.flatMap(i=>i.taxonomyProduct||[]))].sort();
+  const taxI=[...new Set(items.flatMap(i=>i.taxonomyIndustry||[]))].sort();
+  const taxT=[...new Set(items.flatMap(i=>i.taxonomyTechnology||[]))].sort();
+  bMacroMatrix(items);
+  buildTaxMatrix('mx-product',taxP,'taxonomyProduct',items);
+  buildTaxMatrix('mx-industry',taxI,'taxonomyIndustry',items);
+  buildTaxMatrix('mx-technology',taxT,'taxonomyTechnology',items);
+}
+function uInsights(items){
+  bJourney(items);bFresh(items);bPubVsUpdated(items);bLangMx(items);bGated(items);bAutoDown(items);bMatrix(items);
 }
 function uAll(){
   const items=filtered();renderCards(items);uBtns();
-  var rc=document.getElementById('rcount'); if(rc) rc.innerHTML=`${items.length} <em>of ${ALL.length} items</em>`;
+  var rc=document.getElementById('rcount');if(rc)rc.innerHTML=`${items.length} <em>of ${ALL.length} items</em>`;
+  uInsights(items);
 }
-moveResultCountNearSearch();uAll();bMatrix();bFresh();bJourney();bLangMx();bPubVsUpdated();
+moveResultCountNearSearch();uAll();
 
 var UPLOAD_STATE={file:null, parsedRows:[], parsedItems:[], duplicates:[], conflicts:[], section:'auto'};
 function splitMulti(v){
