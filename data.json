@@ -1566,7 +1566,7 @@
     "journeyStage": "Consideration",
     "targetAudience": "Mechanical Engineer; Motion Control Engineer; Controls Engineer",
     "gated": "Yes",
-    "automaticDownload": "Yes",
+    "automaticDownload": "No",
     "primaryKw": "servo motor parameter conversion",
     "secondaryKws": "motor parameter conversions; units of measure; servo drive utilization; published servo motor parameters; motion system performance; motor and drive combination",
     "copy": "Servo Motor Parameters and Their Proper Conversions for Servo Drive Utilization and Comparison 13 Nov 2024 Many mechanical engineers have experienced the frustration of testing their prototype, only to discover that the motion system doesn’t perform as intended...",
@@ -1619,7 +1619,7 @@
     "journeyStage": "Consideration",
     "targetAudience": "Mechanical Engineer; Motion Control Engineer; Automation Engineer; Controls Engineer",
     "gated": "Yes",
-    "automaticDownload": "Yes",
+    "automaticDownload": "No",
     "primaryKw": "servo sizing and selection",
     "secondaryKws": "sizing and selecting servos; servo system components; mechanical load; motion profile; feedback device; ambient environment; specify appropriate cables",
     "copy": "Getting Started Sizing and Selecting Servos: Understanding the Need for a System Solution 09 Feb 2024 Servo systems incorporate a feedback device that reports rotor position to the drive...",
@@ -1680,7 +1680,7 @@
     "journeyStage": "Awareness",
     "targetAudience": "Mechanical Engineer; Motion Control Engineer; Controls Engineer",
     "gated": "Yes",
-    "automaticDownload": "Yes",
+    "automaticDownload": "No",
     "primaryKw": "continuous ratings vs holding loads",
     "secondaryKws": "continuous ratings; holding continuous loads; AC servo motor sizing; stall terminology; RMS force/torque; safe reliable operation",
     "copy": "The Difference Between Continuous Ratings and Holding Continuous Loads 16 Aug 2023 This white paper explores AC servo motor sizing considerations...",
@@ -1703,41 +1703,56 @@
     "language": "en-US"
   },
 
-  {
-    "id": "354676",
-    "url": "https://www.kollmorgen.com/en-us/white-papers/new-thinking-for-improving-performance",
-    "title": "New Thinking for Improving Performance",
-    "locale": "en-US",
-    "contentType": "White Paper",
-    "publishDate": "",
-    "lastUpdated": "",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
-    "cluster": "Servo system sizing & specification",
-    "intent": "Informational",
-    "journeyStage": "Awareness",
-    "targetAudience": "Mechanical Engineer; Motion Control Engineer; Controls Engineer",
-    "gated": "Yes",
-    "automaticDownload": "Yes",
-    "primaryKw": "servo motor holding torque",
-    "secondaryKws": "holding torque vs continuous torque; servo motor ratings; continuous torque ratings; holding loads; motor sizing terminology; servo motor performance",
-    "copy": "",
-    "contentLength": "",
-    "readabilityScore": "49.02",
-    "contentPurpose": "Explain how holding torque and continuous torque ratings differ in servo motor specifications and why the distinction matters when loads must be held stationary. Helps engineers avoid sizing errors by applying the correct terminology and performance calculations.",
-    "localeUrls": {
-      "en-US": "https://www.kollmorgen.com/en-us/white-papers/new-thinking-for-improving-performance"
-    },
-    "seoMeta": {
-      "title": "",
-      "description": ""
-    },
-    "section": "",
-    "language": "en-US"
-  }
+
+{
+  "id": "354676",
+  "url": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/white-papers/2g-motion-system-improving-performance-without-redesigning-machine",
+  "title": "New Thinking for Improving Performance — Without Redesigning Your Machine",
+  "locale": "en-US",
+  "contentType": "White Paper",
+  "publishDate": "2020-01-27",
+  "lastUpdated": "2024-09-10",
+  "taxonomyTerms": [
+    "AKD2G",
+    "AKM2G"
+  ],
+  "taxonomyPaths": [
+    "Product > AKD2G",
+    "Product > AKM2G"
+  ],
+  "taxonomyProduct": [
+    "AKD2G",
+    "AKM2G"
+  ],
+  "taxonomyIndustry": [],
+  "taxonomyTechnology": [],
+  "cluster": "Servo system sizing & specification",
+  "intent": "Informational",
+  "journeyStage": "Awareness",
+  "targetAudience": "Mechanical Engineer; Motion Control Engineer; Controls Engineer",
+  "gated": "Yes",
+  "automaticDownload": "No",
+  "primaryKw": "servo motor holding torque",
+  "secondaryKws": "holding torque vs continuous torque; servo motor ratings; continuous torque ratings; holding loads; motor sizing terminology; servo motor performance",
+  "copy": "New Thinking for Improving Performance — Without Redesigning Your Machine 10 Sep 2024 New machine designs benefit from all the latest advancements in higher-resolution feedback devices, faster processors, sharper vision systems and more sophisticated communication buses. To stay competitive, your existing machine will need to deliver higher performance and quality. Does that mean you need to completely redesign it? There are other options: partially redesigning the machine, replacing individual motors or drives, or upgrading to complete, fully harmonized motion systems. In this white paper, we take you through all the options — including the costs, risks, expected performance improvements and time to ROI—so that you can make the best choice for your application requirements and business goals. Fill out this short form to view this White Paper -OR- Login / Register to gain access to Kollmorgen content Login by username/email address You can use your username or email address to login. Password Register Related Resources",
+  "contentLength": 789,
+  "readabilityScore": "49.02",
+  "contentPurpose": "Explain how holding torque and continuous torque ratings differ in servo motor specifications and why the distinction matters when loads must be held stationary. Helps engineers avoid sizing errors by applying the correct terminology and performance calculations for safe, reliable servo motor selection.",
+  "localeUrls": {
+    "en-US": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/white-papers/2g-motion-system-improving-performance-without-redesigning-machine",
+    "it-IT": "https://www.kollmorgen.com/it-it/service-and-support/knowledge-center/white-papers/2g-motion-system-migliorare-prestazioni-della-macchina-senza-riprogettarla",
+    "fr-FR": "https://www.kollmorgen.com/fr-fr/white-papers/de-nouvelles-solutions-pour-ameliorer-les-performances-sans-refaire-la-conception-de",
+    "de-DE": "https://www.kollmorgen.com/de-de/service-and-support/knowledge-center/white-papers/2g-motion-system-innovativer-ansatz-verbesserung-leistung-ohne-die-maschine-neu-zu-gestalten",
+    "tr-TR": "https://www.kollmorgen.com/tr-tr/service-and-support/knowledge-center/white-papers/2g-motion-system-improving-performance-without-redesigning-machine",
+    "pt-BR": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/2g-motion-system-improving-performance-without-redesigning-machine"
+  },
+  "seoMeta": {
+    "title": "Improve Performance Without Redesigning Your Machine | Kollmorgen",
+    "description": "Discover how to unlock the potential of your existing machinery with strategic upgrades to motion control systems for enhanced performance and longevity."
+  },
+  "section": "",
+  "language": "en-US"
+}
 ,
   {
     "id": "499546",
