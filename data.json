@@ -16100,7 +16100,8 @@
     "readabilityScore": null,
     "contentPurpose": "Shows OEM machine builders how Kollmorgen's motion solutions enable machine differentiation while reducing development time and improving performance. Directly supports the commercial case for choosing Kollmorgen over competing motion platforms. Designed to accelerate decision-making by connecting technical motion performance to measurable machine and business outcomes.",
     "localeUrls": {
-      "en-US": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/white-papers/differentiate-your-machine-to-save-development-time-improve-performance"
+      "en-US": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/white-papers/differentiate-your-machine-to-save-development-time-improve-performance",
+      "pt-BR": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/diferencie-a-sua-m%C3%A1quina-para-economizar-tempo-de-desenvolvimento-melhorar-o-desempenho-e-gerar-lucros-maiores"
     },
     "seoMeta": {
       "title": "Differentiate Your Machine to Save Development Time, Improve Performance and Generate Higher Profits",
@@ -16135,7 +16136,8 @@
     "readabilityScore": null,
     "contentPurpose": "Guides engineers through the key choices in servo feedback technology for different application requirements. Builds Kollmorgen's authority in precision motion design and feedback integration. Supports engineers in the consideration phase as they evaluate which feedback technology best suits their servo system.",
     "localeUrls": {
-      "en-US": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/white-papers/feedback-choices-for-servo-applications"
+      "en-US": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/white-papers/feedback-choices-for-servo-applications",
+      "pt-BR": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/escolhas-de-feedback-para-aplica%C3%A7%C3%B5es-em-servos"
     },
     "seoMeta": {
       "title": "Feedback Choices for Servo Applications",
@@ -16242,7 +16244,8 @@
     "readabilityScore": null,
     "contentPurpose": "Guides engineers through the selection of the right motion network protocol to achieve optimum machine performance, covering the trade-offs between available fieldbus and real-time Ethernet options. Supports Kollmorgen's multi-protocol drive portfolio positioning. Targets controls engineers evaluating network strategies for new or upgraded machine platforms.",
     "localeUrls": {
-      "en-US": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/white-papers/when-motion-matters-choose-the-right-network-for-optimum-performance"
+      "en-US": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/white-papers/when-motion-matters-choose-the-right-network-for-optimum-performance",
+      "pt-BR": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/quando-o-movimento-importa-escolha-a-rede-direta"
     },
     "seoMeta": {
       "title": "When Motion Matters, Choose the Right Network for Optimum Performance",
@@ -16277,7 +16280,8 @@
     "readabilityScore": null,
     "contentPurpose": "Presents model-based design as a structured methodology for improving machine development accuracy and reducing physical prototyping cycles. Positions Kollmorgen as a partner supporting modern, simulation-driven engineering workflows. Targets engineers and managers evaluating model-based tools for new machine development programmes.",
     "localeUrls": {
-      "en-US": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/white-papers/model-based-design"
+      "en-US": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/white-papers/model-based-design",
+      "pt-BR":"https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/modelo-baseado-em"
     },
     "seoMeta": {
       "title": "Model Based Design",
@@ -16312,7 +16316,8 @@
     "readabilityScore": "42,988",
     "contentPurpose": "Examines the advantages of using digital buses for motion control in machine and robot builder applications, covering cost reduction and performance gains. Positions Kollmorgen's bus-compatible drives as the natural choice for connected machines. Designed to move controls engineers from analogue thinking toward digital bus adoption during platform evaluation.",
     "localeUrls": {
-      "en-US": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/white-papers/reduce-costs-and-improve-performance-with-digital-buses"
+      "en-US": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/white-papers/reduce-costs-and-improve-performance-with-digital-buses",
+      "pt-BR":"https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/reduzir-custos-e-melhorar-o-desempenho-com-digital-buses"
     },
     "seoMeta": {
       "title": "Reduce Costs and Improve Performance with Digital Buses | Kollmorgen | Whitepaper",
@@ -17747,181 +17752,6 @@
     },
     "seoMeta": {
       "title": "Construir máquinas melhores e mais rápidas ao simplificar a criação de alto desempenho do Movimento",
-      "description": ""
-    },
-    "section": "MRK",
-    "language": "pt-BR"
-  },
-  {
-    "id": "309823",
-    "url": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/diferencie-a-sua-m%C3%A1quina-para-economizar-tempo-de-desenvolvimento-melhorar-o-desempenho-e-gerar-lucros-maiores",
-    "title": "Diferencie a sua máquina para economizar tempo de desenvolvimento, melhorar o desempenho e gerar lucros maiores",
-    "locale": "pt-BR",
-    "contentType": "White Paper",
-    "publishDate": "2017-09-15",
-    "lastUpdated": "2018-02-14",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
-    "cluster": "Servo Motor Design & Selection",
-    "intent": "Commercial",
-    "journeyStage": "Consideration",
-    "targetAudience": "",
-    "gated": "No",
-    "automaticDownload": "Yes",
-    "primaryKw": "machine differentiation development time",
-    "secondaryKws": "",
-    "copy": "",
-    "contentLength": null,
-    "readabilityScore": null,
-    "contentPurpose": "Limited copy — partial analysis only",
-    "localeUrls": {
-      "pt-BR": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/diferencie-a-sua-m%C3%A1quina-para-economizar-tempo-de-desenvolvimento-melhorar-o-desempenho-e-gerar-lucros-maiores"
-    },
-    "seoMeta": {
-      "title": "Diferencie a sua máquina para economizar tempo de desenvolvimento, melhorar o desempenho e gerar lucros maiores",
-      "description": ""
-    },
-    "section": "MRK",
-    "language": "pt-BR"
-  },
-  {
-    "id": "309825",
-    "url": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/escolhas-de-feedback-para-aplica%C3%A7%C3%B5es-em-servos",
-    "title": "Escolhas de feedback para Aplicações em Servos",
-    "locale": "pt-BR",
-    "contentType": "White Paper",
-    "publishDate": "2017-09-15",
-    "lastUpdated": "2018-02-14",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
-    "cluster": "Motion System Performance & Tuning",
-    "intent": "Informational",
-    "journeyStage": "Consideration",
-    "targetAudience": "",
-    "gated": "No",
-    "automaticDownload": "Yes",
-    "primaryKw": "servo feedback choices applications",
-    "secondaryKws": "",
-    "copy": "",
-    "contentLength": null,
-    "readabilityScore": null,
-    "contentPurpose": "Limited copy — partial analysis only",
-    "localeUrls": {
-      "pt-BR": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/escolhas-de-feedback-para-aplica%C3%A7%C3%B5es-em-servos"
-    },
-    "seoMeta": {
-      "title": "Escolhas de feedback para Aplicações em Servos",
-      "description": ""
-    },
-    "section": "MRK",
-    "language": "pt-BR"
-  },
-  {
-    "id": "309828",
-    "url": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/quando-o-movimento-importa-escolha-a-rede-direta",
-    "title": "Quando o movimento importa, escolha a rede direta para um melhor desempenho",
-    "locale": "pt-BR",
-    "contentType": "White Paper",
-    "publishDate": "2017-09-15",
-    "lastUpdated": "2018-02-14",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
-    "cluster": "Servo Motor Design & Selection",
-    "intent": "Informational",
-    "journeyStage": "Consideration",
-    "targetAudience": "",
-    "gated": "No",
-    "automaticDownload": "Yes",
-    "primaryKw": "motion network selection performance",
-    "secondaryKws": "",
-    "copy": "",
-    "contentLength": null,
-    "readabilityScore": null,
-    "contentPurpose": "Limited copy — partial analysis only",
-    "localeUrls": {
-      "pt-BR": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/quando-o-movimento-importa-escolha-a-rede-direta"
-    },
-    "seoMeta": {
-      "title": "Quando o movimento importa, escolha a rede direta para um melhor desempenho",
-      "description": ""
-    },
-    "section": "MRK",
-    "language": "pt-BR"
-  },
-  {
-    "id": "309829",
-    "url": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/modelo-baseado-em",
-    "title": "Modelo baseado em",
-    "locale": "pt-BR",
-    "contentType": "White Paper",
-    "publishDate": "2017-09-15",
-    "lastUpdated": "2018-02-14",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
-    "cluster": "Servo Motor Design & Selection",
-    "intent": "Informational",
-    "journeyStage": "Consideration",
-    "targetAudience": "",
-    "gated": "No",
-    "automaticDownload": "Yes",
-    "primaryKw": "model-based machine design",
-    "secondaryKws": "",
-    "copy": "",
-    "contentLength": null,
-    "readabilityScore": null,
-    "contentPurpose": "Limited copy — partial analysis only",
-    "localeUrls": {
-      "pt-BR": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/modelo-baseado-em"
-    },
-    "seoMeta": {
-      "title": "Modelo baseado em",
-      "description": ""
-    },
-    "section": "MRK",
-    "language": "pt-BR"
-  },
-  {
-    "id": "309830",
-    "url": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/reduzir-custos-e-melhorar-o-desempenho-com-digital-buses",
-    "title": "Reduzir custos e melhorar o desempenho com Digital Buses",
-    "locale": "pt-BR",
-    "contentType": "White Paper",
-    "publishDate": "2017-09-15",
-    "lastUpdated": "2018-02-14",
-    "taxonomyTerms": [],
-    "taxonomyPaths": [],
-    "taxonomyProduct": [],
-    "taxonomyIndustry": [],
-    "taxonomyTechnology": [],
-    "cluster": "Connectivity & Fieldbus",
-    "intent": "Informational",
-    "journeyStage": "Consideration",
-    "targetAudience": "",
-    "gated": "No",
-    "automaticDownload": "Yes",
-    "primaryKw": "digital bus cost performance",
-    "secondaryKws": "",
-    "copy": "",
-    "contentLength": null,
-    "readabilityScore": null,
-    "contentPurpose": "Limited copy — partial analysis only",
-    "localeUrls": {
-      "pt-BR": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/white-papers/reduzir-custos-e-melhorar-o-desempenho-com-digital-buses"
-    },
-    "seoMeta": {
-      "title": "Reduzir custos e melhorar o desempenho com Digital Buses",
       "description": ""
     },
     "section": "MRK",
