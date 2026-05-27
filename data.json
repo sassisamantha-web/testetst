@@ -4672,177 +4672,105 @@
   },
   {
     "id": "497651",
-    "url": "https://www.kollmorgen.com/fr-fr/case-studies/accelerer-developpement-protheses-exosquelettes-nouvelle-generation",
-    "title": "Accélérer le développement des prothèses et des exosquelettes de nouvelle génération",
-    "locale": "fr-FR",
+    "url": "https://www.kollmorgen.com/en-us/case-studies/accelerating-development-next-generation-prostheses-and-exoskeletons",
+    "title": "Accelerating the Development of Next-Generation Prostheses and Exoskeletons",
+    "locale": "en-US",
     "contentType": "Success Story",
-    "publishDate": "2024-01-04",
-    "lastUpdated": "2024-01-05",
-    "taxonomyTerms": [
-      "AKM",
-      "AKD",
-      "Robotics",
-      "Exoskeleton",
-      "Servo Motors",
-      "Servo Drives"
-    ],
-    "taxonomyPaths": [
-      "Product > AKM",
-      "Product > AKD",
-      "Industry > Robotics",
-      "Industry > Exoskeleton",
-      "Technology > Servo Motors",
-      "Technology > Servo Drives"
-    ],
-    "taxonomyProduct": [
-      "AKM",
-      "AKD"
-    ],
-    "taxonomyIndustry": [
-      "Robotics",
-      "Exoskeleton"
-    ],
-    "taxonomyTechnology": [
-      "Servo Motors",
-      "Servo Drives"
-    ],
-    "cluster": "",
-    "intent": "Informational",
-    "journeyStage": "Awareness",
-    "targetAudience": "",
+    "publishDate": "2023-07-12",
+    "lastUpdated": "2024-03-20",
+    "taxonomyTerms": ["AKM", "AKD"],
+    "taxonomyPaths": ["Product > AKM", "Product > AKD"],
+    "taxonomyProduct": ["AKM", "AKD"],
+    "taxonomyIndustry": [],
+    "taxonomyTechnology": ["Servo Motors", "Servo Drives"],
+    "cluster": "Advanced Motion Control Applications",
+    "intent": "Commercial",
+    "journeyStage": "Consideration",
+    "targetAudience": "Robotics Engineers; Medical Device Engineers; R&D Managers",
     "gated": "No",
     "automaticDownload": "No",
-    "primaryKw": "acc rer veloppement des proth",
-    "secondaryKws": "",
+    "primaryKw": "prosthetics and exoskeleton development",
+    "secondaryKws": "servo motor technology; robotic exoskeleton design; prosthetic device testing; motion control for wearables; biomechanical robotics",
     "copy": "",
-    "contentLength": null,
-    "readabilityScore": null,
-    "contentPurpose": "",
+    "contentLength": 1113,
+    "readabilityScore": "40.85",
+    "contentPurpose": "Demonstrates how high-performance servo motors and drives accelerate prosthetic and exoskeleton development and supports evaluation of motion solutions for wearable robotics.",
     "localeUrls": {
+      "en-US": "https://www.kollmorgen.com/en-us/case-studies/accelerating-development-next-generation-prostheses-and-exoskeletons",
       "fr-FR": "https://www.kollmorgen.com/fr-fr/case-studies/accelerer-developpement-protheses-exosquelettes-nouvelle-generation",
-      "it-IT": "https://www.kollmorgen.com/it-it/case-studies/veloce-sviluppo-protesi-esoscheletri-di-nuova-generazione",
       "de-DE": "https://www.kollmorgen.com/de-de/case-studies/prothesen-exoskelette-nachsten-generation-kurzester-zeit-entwickeln",
+      "it-IT": "https://www.kollmorgen.com/it-it/case-studies/veloce-sviluppo-protesi-esoscheletri-di-nuova-generazione",
       "tr-TR": "https://www.kollmorgen.com/tr-tr/case-studies/yeni-nesil-protezlerin-lskeletlerin-gelistirilmesinin-hizlandirilmasi",
       "pt-BR": "https://www.kollmorgen.com/pt-br/case-studies/acelerando-%20desenvolvimento-proxima-geracao-proteses%20-exoesqueletos"
-    },
-    "seoMeta": {
-      "title": "Accélérer le développement des prothèses et des exosquelettes de nouvelle génération",
-      "description": ""
-    },
-    "section": "MRK",
-    "language": "fr-FR"
+    }
   },
   {
     "id": "457931",
-    "url": "https://www.kollmorgen.com/fr-fr/case-studies/automatiser-systemes-formage-metaux-pour-plus-productivit-souplesse",
-    "title": "Automatiser les systèmes de formage des métaux pour plus de productivité et de souplesse",
-    "locale": "fr-FR",
+    "url": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/success-stories/automating-systems-sheet-metal-forming",
+    "title": "Automating Metal Forming Systems to Improve Productivity and Flexibility",
+    "locale": "en-US",
     "contentType": "Success Story",
-    "publishDate": "2024-03-28",
+    "publishDate": "2020-06-29",
     "lastUpdated": "2024-03-28",
-    "taxonomyTerms": [
-      "KBM",
-      "Metal Forming",
-      "Laser",
-      "Waterjet",
-      "and Plasma Cutters",
-      "Direct Drive Frameless Motors"
-    ],
-    "taxonomyPaths": [
-      "Product > KBM",
-      "Industry > Metal Forming",
-      "Industry > Laser",
-      "Industry > Waterjet",
-      "Industry > and Plasma Cutters",
-      "Technology > Direct Drive Frameless Motors"
-    ],
-    "taxonomyProduct": [
-      "KBM"
-    ],
-    "taxonomyIndustry": [
-      "Metal Forming",
-      "Laser",
-      "Waterjet",
-      "and Plasma Cutters"
-    ],
-    "taxonomyTechnology": [
-      "Direct Drive Frameless Motors"
-    ],
-    "cluster": "",
-    "intent": "Informational",
-    "journeyStage": "Awareness",
-    "targetAudience": "",
+    "taxonomyTerms": ["KBM"],
+    "taxonomyPaths": ["Product > KBM"],
+    "taxonomyProduct": ["KBM"],
+    "taxonomyIndustry": [],
+    "taxonomyTechnology": ["Direct Drive Frameless Motors"],
+    "cluster": "Advanced Motion Control Applications",
+    "intent": "Commercial",
+    "journeyStage": "Consideration",
+    "targetAudience": "Machine Builders; Automation Engineers; Manufacturing Engineering Managers",
     "gated": "No",
     "automaticDownload": "No",
-    "primaryKw": "automatiser les syst mes formage",
-    "secondaryKws": "",
+    "primaryKw": "metal forming automation systems",
+    "secondaryKws": "direct drive motors; sheet metal forming machines; industrial automation productivity; tube cutting automation; precision motion control",
     "copy": "",
-    "contentLength": null,
-    "readabilityScore": null,
-    "contentPurpose": "",
+    "contentLength": 1144,
+    "readabilityScore": "41.89",
+    "contentPurpose": "Shows how direct drive motion technology improves productivity, precision, and flexibility in automated metal forming machines and supports motion architecture evaluation.",
     "localeUrls": {
-      "fr-FR": "https://www.kollmorgen.com/fr-fr/case-studies/automatiser-systemes-formage-metaux-pour-plus-productivit-souplesse"
-    },
-    "seoMeta": {
-      "title": "Automatiser les systèmes de formage des métaux pour plus de productivité et de souplesse",
-      "description": ""
-    },
-    "section": "MRK",
-    "language": "fr-FR"
+      "en-US": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/success-stories/automating-systems-sheet-metal-forming",
+      "fr-FR": "https://www.kollmorgen.com/fr-fr/case-studies/automatiser-systemes-formage-metaux-pour-plus-productivit-souplesse",
+      "de-DE": "https://www.kollmorgen.com/de-de/service-and-support/knowledge-center/success-stories/automatische-systeme-blechformung",
+      "it-IT": "https://www.kollmorgen.com/it-it/service-and-support/knowledge-center/success-stories/sistemi-automazione-lavorazione-delle-lamiere",
+      "tr-TR": "https://www.kollmorgen.com/tr-tr/service-and-support/knowledge-center/success-stories/sekillendirme-icin-otomasyon-sistemleri",
+      "pt-BR": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/success-stories/sistemas-automaca-corte-conformacao-chapas-metalicas"
+    }
   },
   {
     "id": "457911",
-    "url": "https://www.kollmorgen.com/fr-fr/service-and-support/knowledge-center/success-stories/ameliorer-precision-tout-reduisant-taille-poids-cout-pour-meilleures-performances-decoupe-laser",
-    "title": "Améliorer la précision tout en réduisant la taille, le poids et le coût pour de meilleures performances de découpe laser",
-    "locale": "fr-FR",
+    "url": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/success-stories/enhancing-precision-reducing-size-weight-cost",
+    "title": "Taking Laser Cutting Performance to the Next Level by Enhancing Precision while Reducing Size, Weight & Cost",
+    "locale": "en-US",
     "contentType": "Success Story",
-    "publishDate": "2024-03-27",
+    "publishDate": "2020-07-07",
     "lastUpdated": "2024-04-03",
-    "taxonomyTerms": [
-      "Metal Forming",
-      "Laser",
-      "Waterjet",
-      "and Plasma Cutters",
-      "Servo Drives"
-    ],
-    "taxonomyPaths": [
-      "Industry > Metal Forming",
-      "Industry > Laser",
-      "Industry > Waterjet",
-      "Industry > and Plasma Cutters",
-      "Technology > Servo Drives"
-    ],
+    "taxonomyTerms": [],
+    "taxonomyPaths": [],
     "taxonomyProduct": [],
-    "taxonomyIndustry": [
-      "Metal Forming",
-      "Laser",
-      "Waterjet",
-      "and Plasma Cutters"
-    ],
-    "taxonomyTechnology": [
-      "Servo Drives"
-    ],
-    "cluster": "",
-    "intent": "Informational",
-    "journeyStage": "Awareness",
-    "targetAudience": "",
+    "taxonomyIndustry": [],
+    "taxonomyTechnology": ["Servo Drives"],
+    "cluster": "Advanced Motion Control Applications",
+    "intent": "Commercial",
+    "journeyStage": "Consideration",
+    "targetAudience": "Laser Machine Designers; Motion Control Engineers; Product Development Managers",
     "gated": "No",
     "automaticDownload": "No",
-    "primaryKw": "liorer cision tout duisant taille",
-    "secondaryKws": "",
+    "primaryKw": "high-precision laser cutting systems",
+    "secondaryKws": "laser cutting motion control; compact machine design; precision servo drives; industrial laser automation; high-speed manufacturing",
     "copy": "",
-    "contentLength": null,
-    "readabilityScore": null,
-    "contentPurpose": "",
+    "contentLength": 1120,
+    "readabilityScore": "40.30",
+    "contentPurpose": "Explains how advanced motion solutions enable higher precision and throughput in laser cutting machines while reducing size, weight, and cost.",
     "localeUrls": {
-      "fr-FR": "https://www.kollmorgen.com/fr-fr/service-and-support/knowledge-center/success-stories/ameliorer-precision-tout-reduisant-taille-poids-cout-pour-meilleures-performances-decoupe-laser"
-    },
-    "seoMeta": {
-      "title": "Améliorer la précision tout en réduisant la taille, le poids et le coût pour de meilleures performances de découpe laser",
-      "description": ""
-    },
-    "section": "MRK",
-    "language": "fr-FR"
+      "en-US": "https://www.kollmorgen.com/en-us/service-and-support/knowledge-center/success-stories/enhancing-precision-reducing-size-weight-cost",
+      "fr-FR": "https://www.kollmorgen.com/fr-fr/service-and-support/knowledge-center/success-stories/ameliorer-precision-tout-reduisant-taille-poids-cout-pour-meilleures-performances-decoupe-laser",
+      "de-DE": "https://www.kollmorgen.com/de-de/service-and-support/knowledge-center/success-stories/verbesserung-prazision-gleichzeitiger-senkung",
+      "it-IT": "https://www.kollmorgen.com/it-it/service-and-support/knowledge-center/success-stories/precisione-ottimizzata-riducendo-dimensioni",
+      "tr-TR": "https://www.kollmorgen.com/tr-tr/service-and-support/knowledge-center/success-stories/boyutag%C4%B1rl%C4%B1k-maliyet-azal%C4%B1rken-hassasiyeti-art%C4%B1rma",
+      "pt-BR": "https://www.kollmorgen.com/pt-br/service-and-support/knowledge-center/success-stories/aprimorar-precisao-reduzindo-ao-mesmo-tempo-tamanho"
+    }
   },
   {
     "id": "499586",
