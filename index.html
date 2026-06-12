@@ -458,7 +458,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-seri
 const EMBEDDED_DATA=JSON.parse(document.getElementById('data').textContent);
 async function getBaseData(){
   try{
-    var res=await fetch(encodeURI('260605 - updated -json.json')+'?ts='+Date.now(), {cache:'no-store'});
+    var res=await fetch(encodeURI('data.json')+'?ts='+Date.now(), {cache:'no-store'});
     var text=await res.text();
     var parsed=JSON.parse(text);
     if(Array.isArray(parsed)) return parsed;
