@@ -162,6 +162,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-seri
 .dr-kw{width:100%;padding:9px 12px;border-radius:var(--r-sm);background:var(--bg);border:1px solid var(--border);font-size:.85rem;color:var(--text);font-weight:500}
 .dr-txt{font-size:.85rem;color:var(--text);line-height:1.65}
 .dr-txt.clamp{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.dr-related{padding-top:16px;border-top:1px solid var(--border)}
+.rel-grid{display:flex;flex-direction:column;gap:8px}
+.rel-card{display:flex;flex-direction:column;gap:5px;padding:10px 12px;border:1px solid var(--border);border-radius:var(--r-sm);cursor:pointer;transition:border-color .15s,box-shadow .15s}
+.rel-card:hover{border-color:var(--accent);box-shadow:0 0 0 2px rgba(37,99,235,.1)}
+.rel-card-t{font-size:.84rem;font-weight:600;color:var(--text);line-height:1.35}
+.rel-card-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.rel-cluster{font-size:.72rem;color:var(--muted)}
+.rel-card-why{font-size:.74rem;color:var(--muted)}
 .dr-more{margin-top:8px;padding:0;border:none;background:transparent;color:var(--accent);font:inherit;font-size:.8rem;font-weight:600;cursor:pointer}
 /* INSIGHTS */
 .ins-grid{display:flex;flex-direction:column;gap:24px}
@@ -189,6 +197,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-seri
 .mx-tbl{border-collapse:separate;border-spacing:4px}
 .mx-tbl th{font-size:.7rem;font-weight:600;color:var(--muted);padding:4px 6px;text-align:center;white-space:nowrap}
 .mx-rh{text-align:right!important;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500;color:var(--text2)!important;padding-right:8px!important}
+.mx-rh.gap-rh{max-width:none;width:1%;overflow:visible;text-overflow:initial;white-space:nowrap}
 .mcell{height:40px;min-width:62px;border-radius:5px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:.78rem;font-weight:600;transition:transform .12s,box-shadow .12s}
 .mcell:hover{transform:scale(1.1);box-shadow:var(--sh-md)}
 .mcell.mt-empty{background:#F8FAFC;cursor:default}
@@ -219,8 +228,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-seri
 /* CLUSTER FILTER */
 #cluster-filter-wrap{display:none;align-items:center;gap:8px;margin-left:auto}
 #cluster-filter-label{font-size:.78rem;font-weight:600;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
-#cluster-filter{padding:6px 9px;border-radius:var(--r-sm);border:1px solid var(--border);background:var(--surface);font-family:inherit;font-size:.79rem;color:var(--text2);cursor:pointer;max-width:280px}
-#cluster-filter:focus{outline:none;border-color:var(--accent)}
+#cluster-filter-wrap .dmenu{max-height:340px;overflow:auto}
 /* SEO / OPPORTUNITIES TABS */
 .seo-grid{display:flex;flex-direction:column;gap:24px}
 .kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
@@ -237,6 +245,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-seri
 .seo-tbl td.sc-warn{background:var(--aging-bg);color:var(--aging-c)}
 .seo-tbl td.sc-bad{background:var(--old-bg);color:var(--old-c)}
 .seo-tbl td.sc-gray{background:var(--bg);color:var(--muted);text-align:center}
+.seo-tbl td.seo-clk{cursor:pointer;transition:outline .1s}
+.seo-tbl td.seo-clk:hover{outline:2px solid var(--accent);outline-offset:-2px}
+.seo-tbl td.seo-clk:active{outline-width:3px}
 .tbl-scroll-wrap .seo-tbl th:first-child,.tbl-scroll-wrap .seo-tbl td:first-child{position:sticky;left:0;z-index:2;background:var(--surface);box-shadow:1px 0 0 var(--border)}
 .tbl-scroll-wrap .seo-tbl thead th:first-child{z-index:4}
 .seo-h3{font-size:.84rem;font-weight:700;color:var(--text2);margin:18px 0 8px}
@@ -275,7 +286,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-seri
   </div>
   <div id="cluster-filter-wrap">
     <span id="cluster-filter-label">Cluster:</span>
-    <select id="cluster-filter"><option value="">All Clusters</option></select>
+    <div class="fdd"><button class="fbtn" id="btn-cluster">Cluster<svg class="chev" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button><div class="dmenu" id="menu-cluster"></div></div>
   </div>
 </div>
 <div class="fbar" id="fbar">
@@ -447,7 +458,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-seri
 const EMBEDDED_DATA=JSON.parse(document.getElementById('data').textContent);
 async function getBaseData(){
   try{
-    var res=await fetch('data.json?ts='+Date.now(), {cache:'no-store'});
+    var res=await fetch(encodeURI('260605 - updated -json.json')+'?ts='+Date.now(), {cache:'no-store'});
     var text=await res.text();
     var parsed=JSON.parse(text);
     if(Array.isArray(parsed)) return parsed;
@@ -499,6 +510,48 @@ const STAGES=['Awareness','Consideration','Decision'];
 const SRGB={Awareness:'129,140,248',Consideration:'52,211,153',Decision:'245,158,11'};
 const SHEX={Awareness:'#818CF8',Consideration:'#34D399',Decision:'#F59E0B'};
 const gapFmt={Awareness:'Create an introductory Blog post or Article',Consideration:'Create a White Paper or Solution page',Decision:'Create a Product page, Case Study or Checklist'};
+// Related Content (fingerprint + Jaccard similarity)
+const REL_THRESHOLD=0.15;
+const STOPWORDS=new Set(['the','a','an','and','or','of','to','in','for','on','with','at','by','from','is','are','was','were','be','this','that','it','as','your','you','our','we','how','what','why','when','which','can','will','its','their','how-to']);
+function tokenize(s){return String(s||'').toLowerCase().replace(/[^a-z0-9\s]/g,' ').split(/\s+/).filter(t=>t.length>2&&!STOPWORDS.has(t));}
+function getFingerprint(d){
+  if(d._fp)return d._fp;
+  const titleT=new Set(tokenize(d.title));
+  const metaTitleT=new Set(tokenize(d.seoMeta&&d.seoMeta.title));
+  const metaDescT=new Set(tokenize(d.seoMeta&&d.seoMeta.description));
+  const pkwT=new Set(tokenize(d.primaryKw));
+  const skwT=new Set((d.secondaryKws||'').split(';').flatMap(tokenize));
+  const all=new Set([...titleT,...metaTitleT,...metaDescT,...pkwT,...skwT]);
+  d._fp={all,titleT,metaTitleT,skwT,pkw:(d.primaryKw||'').trim().toLowerCase()};
+  return d._fp;
+}
+function jaccard(a,b){
+  if(!a.size&&!b.size)return 0;
+  let inter=0;for(const x of a)if(b.has(x))inter++;
+  const union=a.size+b.size-inter;
+  return union===0?0:inter/union;
+}
+function findRelated(item){
+  const fp=getFingerprint(item);
+  const scored=[];
+  ALL.forEach(d=>{
+    if(d===item)return;
+    const dfp=getFingerprint(d);
+    let score=jaccard(fp.all,dfp.all);
+    if(fp.pkw&&fp.pkw===dfp.pkw)score+=0.2;
+    if(score<REL_THRESHOLD)return;
+    const reasons=[];
+    if(fp.pkw&&fp.pkw===dfp.pkw)reasons.push('Same primary keyword');
+    const skwCommon=[...fp.skwT].filter(t=>dfp.skwT.has(t)).length;
+    if(skwCommon>=2)reasons.push(skwCommon+' common secondary keywords');
+    if(jaccard(fp.titleT,dfp.titleT)>=0.3)reasons.push('Similar title');
+    if(jaccard(fp.metaTitleT,dfp.metaTitleT)>=0.3)reasons.push('Similar meta title');
+    if(item.cluster&&item.cluster===d.cluster)reasons.push('Same cluster');
+    scored.push({item:d,score,reasons});
+  });
+  scored.sort((a,b)=>b.score-a.score);
+  return scored.slice(0,4);
+}
 ALL.forEach(i=>{
   i.section=(i.url||'').includes('/developer-network/')?'KDN':'MRK';
   i.language=i.locale;
@@ -527,7 +580,7 @@ const TAX_P=[...new Set(ALL.flatMap(i=>i.taxonomyProduct||[]))].sort();
 const TAX_I=[...new Set(ALL.flatMap(i=>i.taxonomyIndustry||[]))].sort();
 const TAX_T=[...new Set(ALL.flatMap(i=>i.taxonomyTechnology||[]))].sort();
 const AUDS=[...new Set(ALL.flatMap(i=>(i.targetAudience||'').split(';').map(s=>s.trim()).filter(Boolean)))].sort();
-const S={type:new Set(),intent:new Set(),funnel:new Set(),lang:new Set(),fresh:new Set(),section:new Set(),taxP:new Set(),taxI:new Set(),taxT:new Set(),aud:new Set(),gated:new Set(),autodown:new Set(),search:'',sort:'default',pubBucket:null,updBucket:null,_noTax:false,_hasTax:null,cluster:null};
+const S={type:new Set(),intent:new Set(),funnel:new Set(),lang:new Set(),fresh:new Set(),section:new Set(),taxP:new Set(),taxI:new Set(),taxT:new Set(),aud:new Set(),gated:new Set(),autodown:new Set(),search:'',sort:'default',pubBucket:null,updBucket:null,_noTax:false,_hasTax:null,cluster:new Set()};
 // Section toggle logic
 (function(){
   const togMrk=document.getElementById('tog-mrk');
@@ -570,11 +623,7 @@ bDD('menu-funnel','btn-funnel',FUNNELS,'funnel');bDD('menu-lang','btn-lang',LANG
 bDD('menu-fresh','btn-fresh',BUCKETS,'fresh',b=>BLABEL[b]);bDD('menu-aud','btn-aud',AUDS,'aud');
 bDD('menu-gated','btn-gated',['Yes','No'],'gated');bDD('menu-autodown','btn-autodown',['Yes','No'],'autodown');
 const CLUSTERS_ALL=uniq('cluster');
-(function(){
-  const sel=document.getElementById('cluster-filter');
-  CLUSTERS_ALL.forEach(c=>{const opt=document.createElement('option');opt.value=c;opt.textContent=c;sel.appendChild(opt);});
-  sel.addEventListener('change',()=>{S.cluster=sel.value||null;uAll();});
-})();
+bDD('menu-cluster','btn-cluster',CLUSTERS_ALL,'cluster');
 function bTaxDD(){
   const menu=document.getElementById('menu-tax');
   [['PRODUCT',TAX_P,'taxP'],['INDUSTRY',TAX_I,'taxI'],['TECHNOLOGY',TAX_T,'taxT']].forEach(([lbl,terms,key])=>{
@@ -611,10 +660,9 @@ document.addEventListener('click',()=>{document.querySelectorAll('.dmenu').forEa
 let sT;document.getElementById('srch').addEventListener('input',e=>{clearTimeout(sT);sT=setTimeout(()=>{S.search=e.target.value.trim().toLowerCase();uAll();},200);});
 document.getElementById('srt').addEventListener('change',e=>{S.sort=e.target.value;uAll();});
 document.getElementById('clr-btn').addEventListener('click',()=>{
-  ['type','intent','funnel','lang','fresh','taxP','taxI','taxT','aud','gated','autodown'].forEach(k=>S[k].clear());
-  S.search='';S.sort='default';S.pubBucket=null;S.updBucket=null;S.section.clear();S._noTax=false;S._hasTax=null;S.cluster=null;
+  ['type','intent','funnel','lang','fresh','taxP','taxI','taxT','aud','gated','autodown','cluster'].forEach(k=>S[k].clear());
+  S.search='';S.sort='default';S.pubBucket=null;S.updBucket=null;S.section.clear();S._noTax=false;S._hasTax=null;
   document.getElementById('srch').value='';document.getElementById('srt').value='default';
-  document.getElementById('cluster-filter').value='';
   document.querySelectorAll('.dmenu input[type=checkbox]').forEach(cb=>cb.checked=false);
   document.querySelectorAll('.tg-sa').forEach(b=>b.textContent='Select all');
   document.getElementById('tog-mrk').classList.remove('active');
@@ -655,7 +703,7 @@ S.lang.size &&
     if(S.search){const q=S.search;if(!((i.title||'').toLowerCase().includes(q)||(i.url||'').toLowerCase().includes(q)||(i.id||'').toLowerCase().includes(q)))return false;}
     if(S.pubBucket!==null&&bucketFromDateValue(i.publishDate)!==S.pubBucket)return false;
     if(S.updBucket!==null&&bucketFromDateValue(i.lastUpdated||i.publishDate)!==S.updBucket)return false;
-    if(S.cluster&&i.cluster!==S.cluster)return false;
+    if(S.cluster.size&&!S.cluster.has(i.cluster))return false;
     return true;
   });
   if(S.sort==='az')it.sort((a,b)=>(a.title||'').localeCompare(b.title||''));
@@ -665,7 +713,7 @@ S.lang.size &&
   return it;
 }
 function uBtns(){
-  [['type','btn-type'],['intent','btn-intent'],['funnel','btn-funnel'],['lang','btn-lang'],['fresh','btn-fresh'],['aud','btn-aud'],['gated','btn-gated'],['autodown','btn-autodown']].forEach(([k,id])=>{
+  [['type','btn-type'],['intent','btn-intent'],['funnel','btn-funnel'],['lang','btn-lang'],['fresh','btn-fresh'],['aud','btn-aud'],['gated','btn-gated'],['autodown','btn-autodown'],['cluster','btn-cluster']].forEach(([k,id])=>{
     const btn=document.getElementById(id);const n=S[k].size;if(!btn)return;btn.classList.toggle('on',n>0);
     let b=btn.querySelector('.fbdg');
     if(n>0){if(!b){b=document.createElement('span');b.className='fbdg';btn.insertBefore(b,btn.querySelector('.chev'));}b.textContent=n;}else if(b)b.remove();
@@ -674,7 +722,7 @@ function uBtns(){
   const tBtn=document.getElementById('btn-tax'); if(tBtn) tBtn.classList.toggle('on',tN>0);
   let tB=tBtn?tBtn.querySelector('.fbdg'):null;
   if(tBtn){ if(tN>0){if(!tB){tB=document.createElement('span');tB.className='fbdg';tBtn.insertBefore(tB,tBtn.querySelector('.chev'));}tB.textContent=tN;}else if(tB)tB.remove(); }
-  const any=['type','intent','funnel','lang','fresh','aud','taxP','taxI','taxT','gated','autodown'].some(k=>S[k].size>0)||S.search||S.pubBucket!==null||S.updBucket!==null||S.section.size>0||S._noTax||S._hasTax;
+  const any=['type','intent','funnel','lang','fresh','aud','taxP','taxI','taxT','gated','autodown','cluster'].some(k=>S[k].size>0)||S.search||S.pubBucket!==null||S.updBucket!==null||S.section.size>0||S._noTax||S._hasTax;
   document.getElementById('clr-btn').classList.toggle('show',any);
 }
 function taxDisp(i){
@@ -759,6 +807,21 @@ function openDr(i){
   [['SEO Meta Title',i.seoMeta&&i.seoMeta.title],['SEO Meta Description',i.seoMeta&&i.seoMeta.description]].forEach(([l,v])=>{const b=mk('div');b.appendChild(mk('div','dr-lbl',l));b.appendChild(mk('div','dr-txt',v||'\u2014'));body.appendChild(b);});
   body.appendChild(makeExpandableText('Content Purpose',i.contentPurpose));
   body.appendChild(makeExpandableText('Copy / Excerpt',i.copy));
+  const related=findRelated(i);
+  if(related.length){
+    const relSec=mk('div','dr-related');
+    relSec.appendChild(mk('div','dr-lbl','Related Content'));
+    const grid=mk('div','rel-grid');
+    related.forEach(({item:r,reasons})=>{
+      const [tbg2,tfg2]=(TC[r.contentType]||['#F1F5F9','#475569']);
+      const card=mk('div','rel-card');
+      card.innerHTML=`<div class="rel-card-t">${esc((r.title||'—').slice(0,80))}</div><div class="rel-card-meta"><span class="bdg" style="background:${tbg2};color:${tfg2}">${esc(r.contentType||'—')}</span><span class="rel-cluster">${esc(r.cluster||'—')}</span></div><div class="rel-card-why">${esc(reasons.length?reasons.join(' · '):'Topical overlap')}</div>`;
+      card.addEventListener('click',()=>openDr(r));
+      grid.appendChild(card);
+    });
+    relSec.appendChild(grid);
+    body.appendChild(relSec);
+  }
   document.getElementById('drawer').classList.add('open');document.getElementById('ov').classList.add('open');document.getElementById('dr-x').focus();
 }
 function closeDr(){document.getElementById('drawer').classList.remove('open');document.getElementById('ov').classList.remove('open');}
@@ -770,7 +833,7 @@ document.getElementById('main-tabs').addEventListener('click',e=>{
   btn.classList.add('active');document.getElementById('pane-'+btn.dataset.tab).classList.add('active');
   const tab=btn.dataset.tab;
   const isSeoOpps=tab==='seo'||tab==='opportunities';
-  document.getElementById('fbar').style.display=(tab==='browse'||tab==='insights')?'':'none';
+  document.getElementById('fbar').style.display=(tab==='browse'||tab==='insights'||isSeoOpps)?'':'none';
   document.getElementById('section-toggle-bar').style.display=(tab==='browse'||tab==='insights'||isSeoOpps)?'':'none';
   document.getElementById('cluster-filter-wrap').style.display=isSeoOpps?'flex':'none';
   renderSeoTabs();
@@ -1005,10 +1068,26 @@ function bMatrix(items){
 function uInsights(items){
   bJourney(items);bIntent(items);bFresh(items);bPubVsUpdated(items);bLangMx(items);bGated(items);bAutoDown(items);bMatrix(items);
 }
+let SEO_DRILL=null;
+let SEO_LOCALE_DRILL=null;
+function metaStatus(d,field){
+  const val=field==='title'?(d.seoMeta&&d.seoMeta.title||''):(d.seoMeta&&d.seoMeta.description||'');
+  const len=val.length;
+  if(len===0)return 'missing';
+  if(field==='title')return len<40?'short':len<=65?'ok':'long';
+  return len<120?'short':len<=165?'ok':'long';
+}
+function metaCell(n,cls,ct,field,status){
+  let c='num';
+  if(cls)c+=' '+cls;
+  let attrs='';
+  if(n>0){c+=' seo-clk';attrs=' data-ct="'+esc(ct)+'" data-field="'+field+'" data-status="'+status+'"';}
+  return '<td class="'+c+'"'+attrs+'>'+n+'</td>';
+}
 function bSeoTab(items){
   const wrap=document.getElementById('seo-content');if(!wrap)return;
   const DATA=items;
-  const CLUSTERS=S.cluster?[S.cluster]:CLUSTERS_ALL.filter(c=>DATA.some(d=>d.cluster===c));
+  const CLUSTERS=CLUSTERS_ALL.filter(c=>(!S.cluster.size||S.cluster.has(c))&&DATA.some(d=>d.cluster===c));
   const TYPES=[...new Set(DATA.map(d=>d.contentType).filter(Boolean))].sort();
   const pct=(n,t)=>t>0?Math.round(n/t*100):0;
 
@@ -1028,7 +1107,7 @@ function bSeoTab(items){
   let H='';
 
   // KPI summary
-  H+='<div class="ins-card"><div class="ins-t">SEO KPI Summary</div><div class="ins-s">'+DATA.length+' items'+(S.cluster?' in cluster "'+esc(S.cluster)+'"':'')+'</div><div class="kpi-grid">';
+  H+='<div class="ins-card"><div class="ins-t">SEO KPI Summary</div><div class="ins-s">'+DATA.length+' items'+(S.cluster.size?' in cluster: '+[...S.cluster].map(esc).join(', '):'')+'</div><div class="kpi-grid">';
   [
     {label:'Meta Title OK',val:pct(titOk,DATA.length)+'%',sub:titOk+' / '+DATA.length+' in 40–65 chars',c:pct(titOk,DATA.length)>=70?'var(--fresh-bar)':pct(titOk,DATA.length)>=40?'var(--aging-bar)':'var(--old-bar)'},
     {label:'Meta Desc OK',val:pct(desOk,DATA.length)+'%',sub:desOk+' / '+DATA.length+' in 120–165 chars',c:pct(desOk,DATA.length)>=70?'var(--fresh-bar)':pct(desOk,DATA.length)>=40?'var(--aging-bar)':'var(--old-bar)'},
@@ -1048,10 +1127,11 @@ function bSeoTab(items){
     const ok=its.filter(d=>{const l=(d.seoMeta&&d.seoMeta.title||'').length;return l>=40&&l<=65;}).length;
     const lg=its.filter(d=>(d.seoMeta&&d.seoMeta.title||'').length>65).length;
     H+='<tr><td><b>'+esc(ct)+'</b></td><td class="num">'+its.length+'</td>'
-      +'<td class="num'+(s>0?' sc-warn':'')+'">'+s+'</td>'
-      +'<td class="num'+(ok>0?' sc-ok':'')+'">'+ok+'</td>'
-      +'<td class="num'+(lg>0?' sc-bad':' sc-ok')+'">'+lg+'</td>'
-      +'<td class="num'+(noT>0?' sc-bad':' sc-ok')+'">'+noT+'</td></tr>';
+      +metaCell(s,s>0?'sc-warn':'',ct,'title','short')
+      +metaCell(ok,ok>0?'sc-ok':'',ct,'title','ok')
+      +metaCell(lg,lg>0?'sc-bad':'sc-ok',ct,'title','long')
+      +metaCell(noT,noT>0?'sc-bad':'sc-ok',ct,'title','missing')
+      +'</tr>';
   });
   H+='</tbody></table></div>';
 
@@ -1064,22 +1144,33 @@ function bSeoTab(items){
     const ok=its.filter(d=>{const l=(d.seoMeta&&d.seoMeta.description||'').length;return l>=120&&l<=165;}).length;
     const lg=its.filter(d=>(d.seoMeta&&d.seoMeta.description||'').length>165).length;
     H+='<tr><td><b>'+esc(ct)+'</b></td><td class="num">'+its.length+'</td>'
-      +'<td class="num'+(s>0?' sc-warn':'')+'">'+s+'</td>'
-      +'<td class="num'+(ok>0?' sc-ok':'')+'">'+ok+'</td>'
-      +'<td class="num'+(lg>0?' sc-bad':' sc-ok')+'">'+lg+'</td>'
-      +'<td class="num'+(noD>0?' sc-bad':' sc-ok')+'">'+noD+'</td></tr>';
+      +metaCell(s,s>0?'sc-warn':'',ct,'desc','short')
+      +metaCell(ok,ok>0?'sc-ok':'',ct,'desc','ok')
+      +metaCell(lg,lg>0?'sc-bad':'sc-ok',ct,'desc','long')
+      +metaCell(noD,noD>0?'sc-bad':'sc-ok',ct,'desc','missing')
+      +'</tr>';
   });
   H+='</tbody></table></div>';
 
-  // Issues drill-down
-  const issueItems=DATA.filter(d=>{const tl=(d.seoMeta&&d.seoMeta.title||'').length;const dl=(d.seoMeta&&d.seoMeta.description||'').length;return tl<40||tl>65||dl<120||dl>165;});
-  issueItems.sort((a,b)=>{
-    const score=d=>{const tl=(d.seoMeta&&d.seoMeta.title||'').length;const dl=(d.seoMeta&&d.seoMeta.description||'').length;return (tl<40||tl>65?1:0)+(dl<120||dl>165?1:0);};
-    return score(b)-score(a);
-  });
-  H+='<details class="seo-details"><summary>Items with issues — '+issueItems.length+' total</summary>';
+  // Filtered items drill-down (default: all items with title/desc issues; or a specific SEO_DRILL cell)
+  let drillItems,drillTitle;
+  if(SEO_DRILL){
+    drillItems=DATA.filter(d=>d.contentType===SEO_DRILL.ct&&metaStatus(d,SEO_DRILL.field)===SEO_DRILL.status);
+    const fieldLabel=SEO_DRILL.field==='title'?'Title':'Description';
+    const statusLabel={short:'Short',ok:'OK',long:'Long',missing:'Missing'}[SEO_DRILL.status];
+    drillTitle=esc(SEO_DRILL.ct)+' — '+fieldLabel+' '+statusLabel+' — '+drillItems.length+' item'+(drillItems.length!==1?'s':'');
+  }else{
+    drillItems=DATA.filter(d=>{const tl=(d.seoMeta&&d.seoMeta.title||'').length;const dl=(d.seoMeta&&d.seoMeta.description||'').length;return tl<40||tl>65||dl<120||dl>165;});
+    drillItems.sort((a,b)=>{
+      const score=d=>{const tl=(d.seoMeta&&d.seoMeta.title||'').length;const dl=(d.seoMeta&&d.seoMeta.description||'').length;return (tl<40||tl>65?1:0)+(dl<120||dl>165?1:0);};
+      return score(b)-score(a);
+    });
+    drillTitle='Items with issues — '+drillItems.length+' total';
+  }
+  if(SEO_DRILL)H+='<div style="margin:8px 0"><button class="dl-btn" id="seo-drill-clear">✕ Clear filter</button></div>';
+  H+='<details class="seo-details" id="seo-drill-section"'+(SEO_DRILL?' open':'')+'><summary>'+drillTitle+'</summary>';
   H+='<div class="tbl-scroll-wrap" style="max-height:420px"><table class="seo-tbl"><thead><tr><th>Title</th><th>Type</th><th>Cluster</th><th>T.Len</th><th>T.Status</th><th>D.Len</th><th>D.Status</th></tr></thead><tbody>';
-  issueItems.forEach(d=>{
+  drillItems.forEach(d=>{
     const t=(d.seoMeta&&d.seoMeta.title)||'';const desc=(d.seoMeta&&d.seoMeta.description)||'';
     const tl=t.length,dl=desc.length;
     const tok=tl>=40&&tl<=65,dok=dl>=120&&dl<=165;
@@ -1093,27 +1184,43 @@ function bSeoTab(items){
   H+='</tbody></table></div></details></div>';
 
   // Locale coverage matrix
-  const LOCALES=Object.keys(LANG_MAP);
-  H+='<div class="ins-card"><div class="ins-t">Locale Coverage Matrix</div><div class="ins-s">Percentage of items per cluster with a translated version. Green = good coverage, red = gap.</div>';
+  const LOCALES=Object.keys(LANG_MAP).filter(l=>l!=='zh-CN');
+  H+='<div class="ins-card"><div class="ins-t">Locale Coverage Matrix</div><div class="ins-s">Percentage of items per cluster with a translated version. Green = good coverage, red = gap. Click a percentage to see which items have/lack that locale.</div>';
   H+='<div class="tbl-scroll-wrap" style="max-height:460px"><table class="seo-tbl"><thead><tr><th>Cluster</th><th>Items</th>';
   LOCALES.forEach(l=>{H+='<th>'+esc(LANG_MAP[l])+'</th>';});
-  H+='<th>Avg %</th></tr></thead><tbody>';
+  H+='</tr></thead><tbody>';
   CLUSTERS.forEach(c=>{
     const its=DATA.filter(d=>d.cluster===c);
     H+='<tr><td><b>'+esc(c)+'</b></td><td class="num">'+its.length+'</td>';
-    let covSum=0;
     LOCALES.forEach(l=>{
       const cnt=its.filter(d=>d.localeUrls&&d.localeUrls[l]).length;
       const p=pct(cnt,its.length);
-      covSum+=p;
       const cls=p>=80?'sc-ok':p===0?'sc-bad':'sc-warn';
-      H+='<td class="num '+cls+'" title="'+cnt+'/'+its.length+'">'+(p>0?p+'%':'—')+'</td>';
+      H+='<td class="num '+cls+' seo-clk" data-cluster="'+esc(c)+'" data-locale="'+esc(l)+'" title="'+cnt+'/'+its.length+'">'+(p>0?p+'%':'—')+'</td>';
     });
-    const avg=Math.round(covSum/LOCALES.length);
-    const avgCls=avg>=80?'sc-ok':avg>=50?'sc-warn':'sc-bad';
-    H+='<td class="num '+avgCls+'" style="font-weight:800">'+avg+'%</td></tr>';
+    H+='</tr>';
   });
-  H+='</tbody></table></div></div>';
+  H+='</tbody></table></div>';
+
+  // Locale detail drill-down
+  if(SEO_LOCALE_DRILL){
+    const its=DATA.filter(d=>d.cluster===SEO_LOCALE_DRILL.cluster);
+    const localeLbl=LANG_MAP[SEO_LOCALE_DRILL.locale]||SEO_LOCALE_DRILL.locale;
+    const present=its.filter(d=>d.localeUrls&&d.localeUrls[SEO_LOCALE_DRILL.locale]);
+    const missing=its.filter(d=>!(d.localeUrls&&d.localeUrls[SEO_LOCALE_DRILL.locale]));
+    H+='<div style="margin:8px 0"><button class="dl-btn" id="seo-locale-clear">✕ Clear filter</button></div>';
+    H+='<details class="seo-details" id="seo-locale-section" open><summary>'+esc(SEO_LOCALE_DRILL.cluster)+' × '+esc(localeLbl)+' — '+present.length+' present / '+missing.length+' missing</summary>';
+    H+='<div class="tbl-scroll-wrap" style="max-height:420px"><table class="seo-tbl"><thead><tr><th>Title</th><th>Content Type</th><th>Journey Stage</th><th>'+esc(localeLbl)+'</th></tr></thead><tbody>';
+    missing.concat(present).forEach(d=>{
+      const url=d.localeUrls&&d.localeUrls[SEO_LOCALE_DRILL.locale];
+      H+='<tr data-idx="'+ALL.indexOf(d)+'" style="cursor:pointer"><td title="'+esc(d.title||'')+'">'+esc((d.title||'').slice(0,55))+((d.title||'').length>55?'…':'')+'</td>'
+        +'<td>'+esc(d.contentType||'—')+'</td><td style="font-size:.74rem">'+esc(d.journeyStage||'—')+'</td>'
+        +(url?'<td class="sc-ok">✓ <a href="'+esc(url)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open</a></td>':'<td class="sc-bad">✗ Missing</td>')
+        +'</tr>';
+    });
+    H+='</tbody></table></div></details>';
+  }
+  H+='</div>';
 
   // KW duplication per cluster
   H+='<div class="ins-card"><div class="ins-t">Keyword Duplication per Cluster</div><div class="ins-s">Primary keywords used on 2+ URLs within the same cluster. Cross-cluster matches are not considered.</div>';
@@ -1133,18 +1240,35 @@ function bSeoTab(items){
   }
   H+='</div>';
 
-  // Related content placeholder
-  H+='<div class="ins-card"><div class="ins-t">Related Content</div><div class="ins-s">This feature will live in the item detail drawer (opened from Browse), surfacing similar items based on keyword and topic overlap. Coming in a future update.</div></div>';
-
   wrap.innerHTML=H;
   wrap.querySelectorAll('tr[data-idx]').forEach(tr=>{
     tr.addEventListener('click',()=>{const idx=+tr.dataset.idx;if(ALL[idx])openDr(ALL[idx]);});
   });
+  wrap.querySelectorAll('td.seo-clk[data-ct]').forEach(td=>{
+    td.addEventListener('click',()=>{
+      SEO_DRILL={ct:td.dataset.ct,field:td.dataset.field,status:td.dataset.status};
+      bSeoTab(filtered());
+      const sec=document.getElementById('seo-drill-section');
+      if(sec)sec.scrollIntoView({behavior:'smooth',block:'start'});
+    });
+  });
+  wrap.querySelectorAll('td.seo-clk[data-cluster]').forEach(td=>{
+    td.addEventListener('click',()=>{
+      SEO_LOCALE_DRILL={cluster:td.dataset.cluster,locale:td.dataset.locale};
+      bSeoTab(filtered());
+      const sec=document.getElementById('seo-locale-section');
+      if(sec)sec.scrollIntoView({behavior:'smooth',block:'start'});
+    });
+  });
+  const drillClear=document.getElementById('seo-drill-clear');
+  if(drillClear)drillClear.addEventListener('click',()=>{SEO_DRILL=null;bSeoTab(filtered());});
+  const localeClear=document.getElementById('seo-locale-clear');
+  if(localeClear)localeClear.addEventListener('click',()=>{SEO_LOCALE_DRILL=null;bSeoTab(filtered());});
 }
 function bOpportunitiesTab(items){
   const wrap=document.getElementById('opps-content');if(!wrap)return;
   const DATA=items;
-  const CLUSTERS=S.cluster?[S.cluster]:CLUSTERS_ALL.filter(c=>DATA.some(d=>d.cluster===c));
+  const CLUSTERS=CLUSTERS_ALL.filter(c=>(!S.cluster.size||S.cluster.has(c))&&DATA.some(d=>d.cluster===c));
   const csMap={};
   CLUSTERS.forEach(c=>{csMap[c]={};STAGES.forEach(s=>csMap[c][s]=[]);});
   DATA.forEach(d=>{if(d.cluster&&d.journeyStage&&csMap[d.cluster]&&STAGES.includes(d.journeyStage))csMap[d.cluster][d.journeyStage].push(d);});
@@ -1153,7 +1277,7 @@ function bOpportunitiesTab(items){
   let H='';
   // Gap Map
   H+='<div class="ins-card"><div class="ins-t">Content Opportunities — Gap Map</div><div class="ins-s">Cluster × Journey Stage. Colored cells = number of items (darker = more). Red "GAP" cells mean no content exists for that stage in that cluster — click a filled cell to view those items in Browse.</div>';
-  H+='<div class="tbl-scroll-wrap" style="max-height:520px"><table class="mx-tbl"><thead><tr><th class="mx-rh"></th>';
+  H+='<div class="tbl-scroll-wrap" style="max-height:520px"><table class="mx-tbl"><thead><tr><th class="mx-rh gap-rh"></th>';
   STAGES.forEach(s=>{H+='<th style="background:'+SHEX[s]+';color:#fff">'+s+'</th>';});
   H+='<th>Total</th><th style="text-align:left">Suggested Action</th></tr></thead><tbody>';
 
@@ -1166,7 +1290,7 @@ function bOpportunitiesTab(items){
   clustersByGaps.forEach(c=>{
     const tot=STAGES.reduce((a,s)=>a+csMap[c][s].length,0);
     const missing=STAGES.filter(s=>csMap[c][s].length===0);
-    H+='<tr><th class="mx-rh">'+esc(c)+'</th>';
+    H+='<tr><th class="mx-rh gap-rh">'+esc(c)+'</th>';
     STAGES.forEach(s=>{
       const n=csMap[c][s].length;
       if(n===0){
@@ -1182,34 +1306,67 @@ function bOpportunitiesTab(items){
     H+='</tr>';
   });
   if(CLUSTERS.length>1){
-    H+='<tr><th class="mx-rh" style="font-weight:700">TOTAL</th>';
+    H+='<tr><th class="mx-rh gap-rh" style="font-weight:700">TOTAL</th>';
     STAGES.forEach(s=>{const n=CLUSTERS.reduce((a,c)=>a+csMap[c][s].length,0);H+='<td><div class="mtot">'+n+'</div></td>';});
     H+='<td><div class="mtot" style="color:var(--accent)">'+DATA.length+'</div></td><td></td></tr>';
   }
   H+='</tbody></table></div></div>';
 
   // Repurpose suggestions
-  H+='<div class="ins-card"><div class="ins-t">Repurpose Suggestions</div><div class="ins-s">Existing items that could be repurposed into other formats or stages, grouped by cluster.</div>';
+  H+='<div class="ins-card"><div class="ins-t">Repurpose Suggestions</div><div class="ins-s">Items with a content gap, mismatch or repurpose opportunity, ranked by priority (High → Low) and grouped by cluster. Click a row to open the item.</div>';
+  const PRIO_RANK={High:3,Medium:2,Low:1};
   const repurposeItems=[];
   DATA.forEach(d=>{
     const len=parseInt(d.contentLength)||0;
-    let sug='';
-    if(d.gated==='Yes'&&d.journeyStage==='Awareness')sug='⚠ Gated + Awareness: ungate for SEO or create an ungated blog version';
-    else if(d.contentType==='White Paper'&&len>600&&d.intent==='Informational')sug='♻ Condense into 2–3 Awareness blog posts';
-    else if(d.contentType==='Article'&&len>1500&&d.intent==='Informational')sug='♻ Split into a series + downloadable checklist';
-    else if(d.contentType==='Blog'&&len>900&&d.intent==='Informational')sug='♻ Expand into a Consideration White Paper';
-    else if(d.contentType==='White Paper'&&d.gated==='Yes')sug='♻ Consider an ungated teaser blog version for SEO Awareness';
-    if(!sug)return;
-    repurposeItems.push({d,len,sug});
+    const rscore=(d.readabilityScore!=null&&d.readabilityScore!=='')?+d.readabilityScore:null;
+    const bkt=fB(d);
+    const candidates=[];
+    if(d.gated==='Yes'&&d.journeyStage==='Awareness'){
+      candidates.push({priority:'High',sug:'⚠ Gated + Awareness: this page is invisible to search engines at the discovery stage. Ungate it for SEO or create an ungated blog/landing page targeting "'+(d.primaryKw||'this topic')+'".'});
+    }
+    if(d.intent==='Commercial'&&d.journeyStage==='Awareness'){
+      candidates.push({priority:'High',sug:'⚠ Intent mismatch: Commercial content placed in Awareness. Create an Informational companion piece for cluster "'+(d.cluster||'—')+'" to capture top-of-funnel search traffic, and reposition this page toward Consideration/Decision.'});
+    }
+    if(len>0&&len<300&&d.intent==='Informational'&&['Article','Blog','White Paper'].includes(d.contentType)){
+      candidates.push({priority:'High',sug:'⚠ Thin content ('+len+' words): expand to at least 800 words with more depth on "'+(d.primaryKw||'the topic')+'" and related subtopics, or merge it with a related page in cluster "'+(d.cluster||'—')+'" to avoid being deprioritized by search engines.'});
+    }
+    if(['old','veryold','ancient'].includes(bkt)&&d.journeyStage==='Decision'&&d.intent==='Commercial'){
+      candidates.push({priority:'High',sug:'🕒 Not updated in '+BLABEL[bkt]+': this Decision-stage page needs a content refresh (specs, pricing, proof points, CTAs) to keep converting late-funnel traffic.'});
+    }
+    if(d.contentType==='White Paper'&&len>600&&d.intent==='Informational'){
+      candidates.push({priority:'Medium',sug:'♻ Condense into 2–3 Awareness blog posts (~'+Math.round(len/3)+' words each) for cluster "'+(d.cluster||'—')+'", each targeting a different secondary keyword from this piece.'});
+    }
+    if(d.contentType==='Article'&&len>1500&&d.intent==='Informational'){
+      candidates.push({priority:'Medium',sug:'♻ Split into a 2–3 part blog series plus a downloadable checklist or template for cluster "'+(d.cluster||'—')+'", reusing "'+(d.primaryKw||'this topic')+'" as the series theme.'});
+    }
+    if(d.contentType==='Blog'&&len>900&&d.intent==='Informational'&&d.journeyStage==='Awareness'){
+      const noConsideration=d.cluster&&csMap[d.cluster]&&csMap[d.cluster]['Consideration']&&csMap[d.cluster]['Consideration'].length===0;
+      candidates.push({priority:noConsideration?'High':'Medium',sug:'♻ Expand into a Consideration-stage White Paper for cluster "'+(d.cluster||'—')+'"'+(noConsideration?' — this cluster currently has no Consideration content, so this fills a journey-stage gap.':'.')});
+    }
+    if(d.contentType==='White Paper'&&d.gated==='Yes'&&d.journeyStage!=='Awareness'){
+      candidates.push({priority:'Medium',sug:'♻ Create an ungated teaser/summary blog post linking to this gated White Paper, to capture SEO traffic for "'+(d.primaryKw||'this topic')+'" while keeping the lead-gen asset gated.'});
+    }
+    if(rscore!=null&&rscore<30&&d.journeyStage==='Awareness'&&d.intent==='Informational'){
+      candidates.push({priority:'Medium',sug:'✎ Readability score is low ('+rscore.toFixed(0)+') for Awareness-stage content — simplify sentence structure and vocabulary for a broad top-of-funnel audience.'});
+    }
+    if(['White Paper','Solution'].includes(d.contentType)&&d.journeyStage==='Decision'&&Object.keys(d.localeUrls||{}).filter(l=>l!=='en-US').length===0){
+      candidates.push({priority:'Low',sug:'🌍 No localized versions available for this Decision-stage content — prioritize translation into key markets to support international demand generation.'});
+    }
+    if(!candidates.length)return;
+    candidates.sort((a,b)=>PRIO_RANK[b.priority]-PRIO_RANK[a.priority]);
+    const top=candidates[0];
+    repurposeItems.push({d,len,sug:top.sug,priority:top.priority});
   });
-  repurposeItems.sort((a,b)=>(a.d.cluster||'').localeCompare(b.d.cluster||''));
-  H+='<div class="tbl-scroll-wrap" style="max-height:520px"><table class="seo-tbl"><thead><tr><th>Title</th><th>Cluster</th><th>Type</th><th>Words</th><th>Stage</th><th>Gated</th><th>Opportunity</th></tr></thead><tbody>';
-  repurposeItems.forEach(({d,len,sug})=>{
+  repurposeItems.sort((a,b)=>PRIO_RANK[b.priority]-PRIO_RANK[a.priority]||(a.d.cluster||'').localeCompare(b.d.cluster||''));
+  H+='<div class="tbl-scroll-wrap" style="max-height:520px"><table class="seo-tbl"><thead><tr><th>Title</th><th>Cluster</th><th>Type</th><th>Words</th><th>Stage</th><th>Gated</th><th>Priority</th><th style="text-align:left">Opportunity</th></tr></thead><tbody>';
+  const PRIO_CLS={High:'sc-bad',Medium:'sc-warn',Low:'sc-gray'};
+  repurposeItems.forEach(({d,len,sug,priority})=>{
     H+='<tr data-idx="'+ALL.indexOf(d)+'" style="cursor:pointer"><td title="'+esc(d.title||'')+'">'+esc((d.title||'').slice(0,55))+'</td>'
       +'<td style="font-size:.74rem">'+esc(d.cluster||'—')+'</td><td>'+esc(d.contentType||'—')+'</td>'
       +'<td class="num">'+len+'</td><td>'+esc(d.journeyStage||'—')+'</td>'
       +'<td class="num'+(d.gated==='Yes'?' sc-warn':'')+'">'+esc(d.gated||'No')+'</td>'
-      +'<td style="font-size:.74rem;white-space:normal">'+esc(sug)+'</td></tr>';
+      +'<td class="num '+PRIO_CLS[priority]+'" style="font-weight:700">'+priority+'</td>'
+      +'<td style="font-size:.74rem;white-space:normal;text-align:left">'+esc(sug)+'</td></tr>';
   });
   H+='</tbody></table></div></div>';
 
@@ -1218,7 +1375,8 @@ function bOpportunitiesTab(items){
     cell.addEventListener('click',()=>{
       const cl=cell.dataset.cluster,stage=cell.dataset.stage;
       tooBrowse();
-      S.cluster=cl;document.getElementById('cluster-filter').value=cl;
+      S.cluster.clear();S.cluster.add(cl);
+      document.querySelectorAll('#menu-cluster input').forEach(cb=>cb.checked=S.cluster.has(cb.value));
       S.funnel.clear();S.funnel.add(stage);
       document.querySelectorAll('#menu-funnel input').forEach(cb=>cb.checked=S.funnel.has(cb.value));
       uAll();
